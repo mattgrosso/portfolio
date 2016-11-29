@@ -45,8 +45,72 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+* {
+  margin: 0; }
+
+html, body {
+  height: 100%; }
+
+.wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -39px; }
+
+.push {
+  height: 39px; }
+
+.footer {
+  background-color: #030103;
+  height: 39px; }
+
+body {
+  background-color: #FFFEFF;
+  font-family: "Maitree", serif; }
+
+h1 {
+  font-size: 6em;
+  text-align: right;
+  padding: 20px 20px 0px 0px; }
+
 header {
-  background-color: #70C59F;
-  height: 100px; }
+  background-color: #2156E0; }
+  header nav {
+    background-color: #030103; }
+    header nav ul {
+      float: right;
+      font-size: 1.2em;
+      font-weight: 200; }
+      header nav ul li {
+        color: #FFFEFF;
+        float: left;
+        padding: 7px 10px 4px; }
+
+.contacts {
+  font-size: 1.2em;
+  float: left;
+  padding-left: 20px; }
+  .contacts li {
+    float: right;
+    padding: 7px 10px 4px; }
+  .contacts .contacts-phone {
+    font-size: 1.4em;
+    padding-top: 4px; }
+  .contacts a {
+    color: #FFFEFF;
+    text-decoration: none; }
+
+.footer .contacts {
+  float: right;
+  padding-left: 0px;
+  padding-right: 20px; }
+
+.clearfix {
+  clear: both; }
+
+.vertical-bar {
+  background-color: #030103;
+  width: 50px;
+  height: 500px; }
 
 /*# sourceMappingURL=main.css.map */

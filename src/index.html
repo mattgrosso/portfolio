@@ -3,21 +3,45 @@
   <head>
     <meta charset="utf-8">
     <title>Matt Grosso's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Maitree:300,400,500,700" rel="stylesheet">
+    <script src="https://use.fontawesome.com/d0e9be0862.js"></script>
     <link rel="stylesheet" href="/css/main.css">
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li>One</li>
-          <li>Two</li>
-          <li>Three</li>
-          <li>Four</li>
-        </ul>
-      </nav>
-    </header>
-    <section ui-view class="main-content"></section>
+    <div class="wrapper">
+      <header>
+        <h1>Matt Grosso</h1>
+        <nav>
+          <ul>
+            <li>Projects</li>
+            <li>Bootstrap</li>
+            <li>Responsive</li>
+          </ul>
+          <ul class="contacts">
+            <li class="contacts-email"><a href="mailto:mattgrosso@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+            <li class="contacts-phone"><a href="tel:3123439740" target="_blank"><i class="fa fa-mobile" aria-hidden="true"></i></a></li>
+            <li class="contacts-linkedin"><a href="https://www.linkedin.com/in/matt-grosso" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+          </ul>
+          <div class="clearfix"></div>
+        </nav>
+        <div class="clearfix"></div>
+      </header>
 
+      <!-- <div class="vertical-bar"></div> -->
+
+      <section ui-view class="main-content"></section>
+
+      <div class="push"></div>
+    </div>
+
+    <div class="footer">
+      <ul class="contacts">
+        <li class="contacts-email"><a href="mailto:mattgrosso@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+        <li class="contacts-phone"><a href="tel:3123439740" target="_blank"><i class="fa fa-mobile" aria-hidden="true"></i></a></li>
+        <li class="contacts-linkedin"><a href="https://www.linkedin.com/in/matt-grosso" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+      </ul>
+      <div class="clearfix"></div>
+    </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js'></script>
