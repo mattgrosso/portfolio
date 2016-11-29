@@ -3,7 +3,7 @@
 
   $('.move-stuff').on('click', function moveStuff() {
       $('.moveable-canvas').css({
-        'top': '-100vh',
+        'top': '-150vh',
         'left': '-150vw',
       });
   });
