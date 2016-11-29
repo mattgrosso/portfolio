@@ -45,28 +45,110 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-* {
-  margin: 0; }
-
-html, body {
-  height: 100%; }
-
-.wrapper {
+html {
   min-height: 100%;
-  height: auto !important;
-  height: 100%;
-  margin: 0 auto -39px; }
-
-.push {
-  height: 39px; }
-
-.footer {
-  background-color: #030103;
-  height: 39px; }
+  position: relative; }
 
 body {
+  height: 100%;
   background-color: #FFFEFF;
   font-family: "Maitree", serif; }
+
+main {
+  height: 100%; }
+
+.move-stuff {
+  position: fixed;
+  top: 50px;
+  left: 50px; }
+
+.moveable-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 300vh;
+  width: 300vw;
+  transition: all 2s ease; }
+
+.vertical-bar1 {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 10vw;
+  width: 34px;
+  overflow: hidden;
+  background-color: #030103; }
+
+.vertical-bar2 {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 110vw;
+  width: 34px;
+  height: 130vh;
+  overflow: hidden;
+  background-color: #030103; }
+
+.vertical-bar3 {
+  position: absolute;
+  z-index: -1;
+  top: 130vh;
+  bottom: 0;
+  left: 150vw;
+  width: 34px;
+  overflow: hidden;
+  background-color: #030103; }
+
+.vertical-bar4 {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 34px;
+  overflow: hidden;
+  background-color: #030103; }
+
+.horizontal-bar1 {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  overflow: hidden;
+  background-color: #030103; }
+
+.horizontal-bar2 {
+  position: absolute;
+  z-index: -1;
+  top: 40vh;
+  left: 110vw;
+  right: 0;
+  height: 34px;
+  overflow: hidden;
+  background-color: #030103; }
+
+.horizontal-bar3 {
+  position: absolute;
+  z-index: -1;
+  top: 130vh;
+  left: 0;
+  right: 0;
+  height: 34px;
+  overflow: hidden;
+  background-color: #030103; }
+
+.horizontal-bar4 {
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 34px;
+  overflow: hidden;
+  background-color: #030103; }
 
 h1 {
   font-size: 6em;
@@ -74,6 +156,7 @@ h1 {
   padding: 20px 20px 0px 0px; }
 
 header {
+  display: none;
   background-color: #2156E0; }
   header nav {
     background-color: #030103; }
@@ -100,17 +183,7 @@ header {
     color: #FFFEFF;
     text-decoration: none; }
 
-.footer .contacts {
-  float: right;
-  padding-left: 0px;
-  padding-right: 20px; }
-
 .clearfix {
   clear: both; }
-
-.vertical-bar {
-  background-color: #030103;
-  width: 50px;
-  height: 500px; }
 
 /*# sourceMappingURL=main.css.map */
