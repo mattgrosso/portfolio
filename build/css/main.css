@@ -50,6 +50,7 @@ html {
   position: relative; }
 
 body {
+  overflow: hidden;
   height: 100%;
   background-color: #FFFEFF;
   font-family: "Maitree", serif; }
@@ -58,8 +59,9 @@ main {
   height: 100%; }
 
 .move-stuff {
+  z-index: 1;
   position: fixed;
-  top: 50px;
+  bottom: 50px;
   right: 50px; }
 
 .moveable-canvas {
@@ -72,17 +74,15 @@ main {
 
 .vertical-bar1 {
   position: absolute;
-  z-index: -1;
   top: 0;
   bottom: 0;
-  left: 10vw;
+  left: 150px;
   width: 34px;
   overflow: hidden;
   background-color: #030103; }
 
 .vertical-bar2 {
   position: absolute;
-  z-index: -1;
   top: 0;
   left: 110vw;
   width: 34px;
@@ -92,7 +92,6 @@ main {
 
 .vertical-bar3 {
   position: absolute;
-  z-index: -1;
   top: 130vh;
   bottom: 0;
   left: 150vw;
@@ -102,7 +101,6 @@ main {
 
 .vertical-bar4 {
   position: absolute;
-  z-index: -1;
   top: 0;
   bottom: 0;
   right: 0;
@@ -112,45 +110,42 @@ main {
 
 .horizontal-bar1 {
   position: absolute;
-  z-index: -1;
   top: 0;
   left: 0;
   right: 0;
   overflow: hidden;
   background-color: #2156E0; }
-  .horizontal-bar1 header {
-    z-index: 1; }
-    .horizontal-bar1 header h1 {
-      font-size: 6em;
-      text-align: left;
-      padding: 20px 0px 0px 20px; }
-    .horizontal-bar1 header nav {
-      background-color: #030103; }
-      .horizontal-bar1 header nav ul {
-        float: left;
-        font-size: 1.2em;
-        font-weight: 200; }
-        .horizontal-bar1 header nav ul li {
-          color: #FFFEFF;
-          float: left;
-          padding: 7px 10px 4px; }
-    .horizontal-bar1 header .contacts {
-      font-size: 1.2em;
+  .horizontal-bar1 header h1 {
+    font-size: 6em;
+    text-align: left;
+    padding: 20px 0px 0px 20px; }
+  .horizontal-bar1 header nav {
+    background-color: #030103; }
+    .horizontal-bar1 header nav ul {
       float: left;
-      padding-left: 20px; }
-      .horizontal-bar1 header .contacts li {
-        float: right;
-        padding: 7px 10px 4px; }
-      .horizontal-bar1 header .contacts .contacts-phone {
-        font-size: 1.4em;
-        padding-top: 4px; }
-      .horizontal-bar1 header .contacts a {
+      font-size: 1.2em;
+      font-weight: 200;
+      padding-left: 57px; }
+      .horizontal-bar1 header nav ul li {
         color: #FFFEFF;
-        text-decoration: none; }
+        float: left;
+        padding: 7px 10px 4px; }
+  .horizontal-bar1 header .contacts {
+    width: 150px;
+    padding-left: 0px; }
+    .horizontal-bar1 header .contacts li {
+      padding: 7px 10px 4px; }
+    .horizontal-bar1 header .contacts .contacts-email {
+      padding-left: 31px; }
+    .horizontal-bar1 header .contacts .contacts-phone {
+      font-size: 1.4em;
+      padding-top: 4px; }
+    .horizontal-bar1 header .contacts a {
+      color: #FFFEFF;
+      text-decoration: none; }
 
 .horizontal-bar2 {
   position: absolute;
-  z-index: -1;
   top: 40vh;
   left: 110vw;
   right: 0;
@@ -160,7 +155,6 @@ main {
 
 .horizontal-bar3 {
   position: absolute;
-  z-index: -1;
   top: 130vh;
   left: 0;
   right: 0;
@@ -170,7 +164,6 @@ main {
 
 .horizontal-bar4 {
   position: absolute;
-  z-index: -1;
   bottom: 0;
   left: 0;
   right: 0;
@@ -180,11 +173,11 @@ main {
 
 .color-box1 {
   position: absolute;
-  z-index: -2;
+  z-index: -1;
   top: 0;
   height: 130vh;
   left: 0;
-  width: 10vw;
+  width: 150px;
   overflow: hidden;
   background-color: #FF0001; }
 
