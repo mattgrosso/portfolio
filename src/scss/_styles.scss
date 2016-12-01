@@ -14,11 +14,21 @@ main{
   height: 100%;
 }
 
-.move-stuff{
+.move-stuff-form{
   z-index: 1;
   position: fixed;
   bottom: 50px;
   right: 50px;
+  input{
+    display: block;
+    width: 50px;
+    margin: 3px;
+  }
+  button{
+    display: block;
+    width: 50px;
+    margin: 3px auto;
+  }
 }
 
 .moveable-canvas{
@@ -32,7 +42,6 @@ main{
 
 .vertical-bar1{
   position: absolute;
-  // z-index: -1;
   top: 0;
   bottom: 0;
   left: 150px;
@@ -43,7 +52,6 @@ main{
 
 .vertical-bar2{
   position: absolute;
-  // z-index: -1;
   top: 0;
   left: 110vw;
   width: 34px;
@@ -54,7 +62,6 @@ main{
 
 .vertical-bar3{
   position: absolute;
-  // z-index: -1;
   top: 130vh;
   bottom: 0;
   left: 150vw;
@@ -65,7 +72,6 @@ main{
 
 .vertical-bar4{
   position: absolute;
-  // z-index: -1;
   top: 0;
   bottom: 0;
   right: 0;
@@ -74,16 +80,14 @@ main{
   background-color: $palette-black;
 }
 
-.horizontal-bar1{
+.header-bar{
   position: absolute;
-  // z-index: -1;
   top: 0;
   left: 0;
   right: 0;
   overflow: hidden;
   background-color: $palette-blue;
   header{
-    // z-index: 1;
     h1{
       font-size: 6em;
       text-align: left;
@@ -97,9 +101,16 @@ main{
         font-weight: 200;
         padding-left: 57px;
         li{
-          color: $palette-white;
           float: left;
           padding: 7px 10px 4px;
+          a{
+            color: $palette-white;
+            text-decoration: none;
+            &:hover{
+              color: $palette-white;
+              text-shadow: 0px 0px 2px $palette-white;
+            }
+          }
         }
       }
     }
@@ -126,7 +137,6 @@ main{
 
 .horizontal-bar2{
   position: absolute;
-  // z-index: -1;
   top: 40vh;
   left: 110vw;
   right: 0;
@@ -137,7 +147,6 @@ main{
 
 .horizontal-bar3{
   position: absolute;
-  // z-index: -1;
   top: 130vh;
   left: 0;
   right: 0;
@@ -148,7 +157,6 @@ main{
 
 .horizontal-bar4{
   position: absolute;
-  // z-index: -1;
   bottom: 0;
   left: 0;
   right: 0;

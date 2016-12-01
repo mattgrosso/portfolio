@@ -1,22 +1,28 @@
 <!DOCTYPE html>
-<html ng-app="portfolio">
+<html>
   <head>
     <meta charset="utf-8">
     <title>Matt Grosso's Portfolio</title>
-    <link href="https://fonts.googleapis.com/css?family=Maitree:300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700" rel="stylesheet">
     <script src="https://use.fontawesome.com/d0e9be0862.js"></script>
     <link rel="stylesheet" href="/css/main.css">
   </head>
   <body>
     <div class="moveable-canvas">
 
-      <button class="move-stuff">Move Stuff</button>
+      <div class="">
+        <form class="move-stuff-form">
+          <input type="number" name="top" value="">
+          <input type="number" name="left" value="">
+          <button type="submit" class="move-stuff">Move</button>
+        </form>
+      </div>
 
       <div class="vertical-bar1"></div>
       <div class="vertical-bar2"></div>
       <div class="vertical-bar3"></div>
       <div class="vertical-bar4"></div>
-      <div class="horizontal-bar1">
+      <div class="header-bar">
         <header>
           <h1>Matt Grosso</h1>
           <nav>
@@ -26,9 +32,9 @@
               <li class="contacts-linkedin"><a href="https://www.linkedin.com/in/matt-grosso" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
             </ul>
             <ul>
-              <li>Projects</li>
-              <li>Bootstrap</li>
-              <li>Responsive</li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#bootstrap">Bootstrap</a></li>
+              <li><a href="#responsive">Responsive</a></li>
             </ul>
             <div class="clearfix"></div>
           </nav>
@@ -45,8 +51,8 @@
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js'></script>
-    <script src='https://angular-ui.github.io/ui-router/release/angular-ui-router.js'></script>
+    <!-- <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js'></script>
+    <script src='https://angular-ui.github.io/ui-router/release/angular-ui-router.js'></script> -->
     <script src='/js/main.js'></script>
   </body>
 </html>

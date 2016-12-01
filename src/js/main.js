@@ -21,5 +21,3 @@
   });
 
 })();
-
-//# sourceMappingURL=main.js.map
