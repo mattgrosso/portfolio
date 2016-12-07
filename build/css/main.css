@@ -73,6 +73,7 @@ main {
     margin: 3px auto; }
 
 .moveable-canvas {
+  z-index: -2;
   position: absolute;
   top: 0;
   left: 0;
@@ -143,19 +144,6 @@ main {
           .header-bar header nav ul li a:hover {
             color: #FFFEFF;
             text-shadow: 0px 0px 2px #FFFEFF; }
-  .header-bar header .contacts {
-    width: 150px;
-    padding-left: 0px; }
-    .header-bar header .contacts li {
-      padding: 7px 10px 4px; }
-    .header-bar header .contacts .contacts-email {
-      padding-left: 31px; }
-    .header-bar header .contacts .contacts-phone {
-      font-size: 1.4em;
-      padding-top: 4px; }
-    .header-bar header .contacts a {
-      color: #FFFEFF;
-      text-decoration: none; }
 
 .horizontal-bar2 {
   position: absolute;
@@ -193,6 +181,43 @@ main {
   width: 150px;
   overflow: hidden;
   background-color: #F50701; }
+  .color-box1 img {
+    display: block;
+    position: relative;
+    top: 160px;
+    width: 120px;
+    margin: auto; }
+  .color-box1 .contacts {
+    position: relative;
+    width: 150px;
+    top: 180px; }
+    .color-box1 .contacts li {
+      position: relative;
+      left: 0px;
+      padding: 9px 0px;
+      margin: 6px 0px;
+      font-size: 1.1em;
+      text-align: left;
+      background-color: #FFFEFF;
+      transition: all 0.3s ease; }
+      .color-box1 .contacts li a {
+        color: #030103;
+        text-decoration: none;
+        margin-left: 17px; }
+        .color-box1 .contacts li a i {
+          position: relative;
+          left: 0px;
+          float: right;
+          padding-right: 23px;
+          transition: all 0.3s ease; }
+      .color-box1 .contacts li:hover {
+        left: 10px; }
+        .color-box1 .contacts li:hover i {
+          left: -10px; }
+    .color-box1 .contacts .contacts-phone i {
+      font-size: 1.5em;
+      padding-right: 25px;
+      margin-top: -4px; }
 
 .clearfix {
   clear: both; }
