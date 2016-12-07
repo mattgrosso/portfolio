@@ -171,16 +171,19 @@ main{
     li{
       position: relative;
       left: 0px;
-      padding: 9px 0px;
       margin: 6px 0px;
       font-size: 1.1em;
       text-align: left;
       background-color: $palette-white;
       transition: all 0.3s ease;
       a{
+        display: inline-block;
+        box-sizing: border-box;
         color: $palette-black;
         text-decoration: none;
-        margin-left: 17px;
+        padding: 9px 0px 9px 17px;
+        width: 100%;
+
         i{
           position: relative;
           left: 0px;
