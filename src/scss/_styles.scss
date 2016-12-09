@@ -86,23 +86,24 @@ main{
   top: 0;
   left: 0;
   right: 0;
+  height: 146px;
   overflow: hidden;
   background-image: $blue-canvas;
   header{
     h1{
       font-size: 6em;
+      color: $palette-white;
       text-align: left;
       padding: 20px 0px 0px 20px;
     }
     nav{
       background-image: $black-canvas;
       ul{
-        float: left;
+        width: 100vw;
         font-size: 1.2em;
         font-weight: 200;
-        padding-left: 57px;
         li{
-          float: left;
+          float: right;
           padding: 7px 10px 4px;
           a{
             color: $palette-white;
@@ -148,7 +149,7 @@ main{
   background-image: $black-canvas
 }
 
-.color-box1{
+.contact-box{
   position: absolute;
   z-index: -1;
   top: 0;
@@ -202,8 +203,21 @@ main{
   }
 }
 
-.color-box2{
-
+.welcome-box{
+  position: absolute;
+  z-index: -1;
+  top: 146px;
+  height: 80vh;
+  left: 184px;
+  width: 80vw;
+  overflow: hidden;
+  box-sizing: border-box;
+  p{
+    font-size: 1.3em;
+    line-height: normal;
+    padding: 20px 100px;
+    text-align: left;
+  }
 }
 
 .clearfix{
