@@ -216,10 +216,6 @@ main {
         left: 10px; }
         .color-box1 .contacts li:hover i {
           left: -10px; }
-    .color-box1 .contacts .contacts-phone i {
-      font-size: 1.5em;
-      padding-right: 25px;
-      margin-top: -4px; }
 
 .clearfix {
   clear: both; }
