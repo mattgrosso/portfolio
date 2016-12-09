@@ -6,7 +6,7 @@ html{
 body{
   overflow: hidden;
   height: 100%;
-  background-color: $palette-white;
+  background-image: $white-canvas;
   font-family: $font;
 }
 
@@ -48,7 +48,7 @@ main{
   left: 150px;
   width: 34px;
   overflow: hidden;
-  background-color: $palette-black;
+  background-image: $black-canvas;
 }
 
 .vertical-bar2{
@@ -58,7 +58,7 @@ main{
   width: 34px;
   height: 130vh;
   overflow: hidden;
-  background-color: $palette-black;
+  background-image: $black-canvas;
 }
 
 .vertical-bar3{
@@ -68,7 +68,7 @@ main{
   left: 150vw;
   width: 34px;
   overflow: hidden;
-  background-color: $palette-black;
+  background-image: $black-canvas;
 }
 
 .vertical-bar4{
@@ -78,7 +78,7 @@ main{
   right: 0;
   width: 34px;
   overflow: hidden;
-  background-color: $palette-black;
+  background-image: $black-canvas;
 }
 
 .header-bar{
@@ -87,7 +87,7 @@ main{
   left: 0;
   right: 0;
   overflow: hidden;
-  background-color: $palette-blue;
+  background-image: $blue-canvas;
   header{
     h1{
       font-size: 6em;
@@ -95,7 +95,7 @@ main{
       padding: 20px 0px 0px 20px;
     }
     nav{
-      background-color: $palette-black;
+      background-image: $black-canvas;
       ul{
         float: left;
         font-size: 1.2em;
@@ -125,7 +125,7 @@ main{
   right: 0;
   height: 34px;
   overflow: hidden;
-  background-color: $palette-black;
+  background-image: $black-canvas
 }
 
 .horizontal-bar3{
@@ -135,7 +135,7 @@ main{
   right: 0;
   height: 34px;
   overflow: hidden;
-  background-color: $palette-black;
+  background-image: $black-canvas
 }
 
 .horizontal-bar4{
@@ -145,7 +145,7 @@ main{
   right: 0;
   height: 34px;
   overflow: hidden;
-  background-color: $palette-black;
+  background-image: $black-canvas
 }
 
 .color-box1{
@@ -156,7 +156,7 @@ main{
   left: 0;
   width: 150px;
   overflow: hidden;
-  background-color: $palette-red;
+  background-image: $red-canvas;
   img{
     display: block;
     position: relative;
@@ -174,7 +174,7 @@ main{
       margin: 6px 0px;
       font-size: 1.1em;
       text-align: left;
-      background-color: $palette-white;
+      background-image: $white-canvas;
       transition: all 0.3s ease;
       a{
         display: inline-block;
@@ -216,3 +216,24 @@ main{
 .clearfix{
   clear: both;
 }
+
+// .canvas-texture{
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   height: 100%;
+//   width: 100%;
+//   -webkit-mask-image: url('/img/fabric.png');
+//   mask-image: url('/img/fabric.png');
+// }
+
+// .tester{
+//   position: absolute;
+//   top: 50vh;
+//   left: 50vw;
+//   width: 200px;
+//   height: 200px;
+//   background-color: blue;
+//   -webkit-mask-image: url('/img/fabric.png');
+//   mask-image: url('/img/fabric.png');
+// }

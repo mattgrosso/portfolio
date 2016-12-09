@@ -52,7 +52,7 @@ html {
 body {
   overflow: hidden;
   height: 100%;
-  background-color: #FFFEFF;
+  background-image: url("/img/fabric-white.png");
   font-family: "Droid Serif", serif; }
 
 main {
@@ -88,7 +88,7 @@ main {
   left: 150px;
   width: 34px;
   overflow: hidden;
-  background-color: #030103; }
+  background-image: url("/img/fabric-black.png"); }
 
 .vertical-bar2 {
   position: absolute;
@@ -97,7 +97,7 @@ main {
   width: 34px;
   height: 130vh;
   overflow: hidden;
-  background-color: #030103; }
+  background-image: url("/img/fabric-black.png"); }
 
 .vertical-bar3 {
   position: absolute;
@@ -106,7 +106,7 @@ main {
   left: 150vw;
   width: 34px;
   overflow: hidden;
-  background-color: #030103; }
+  background-image: url("/img/fabric-black.png"); }
 
 .vertical-bar4 {
   position: absolute;
@@ -115,7 +115,7 @@ main {
   right: 0;
   width: 34px;
   overflow: hidden;
-  background-color: #030103; }
+  background-image: url("/img/fabric-black.png"); }
 
 .header-bar {
   position: absolute;
@@ -123,13 +123,13 @@ main {
   left: 0;
   right: 0;
   overflow: hidden;
-  background-color: #2156E0; }
+  background-image: url("/img/fabric-blue.png"); }
   .header-bar header h1 {
     font-size: 6em;
     text-align: left;
     padding: 20px 0px 0px 20px; }
   .header-bar header nav {
-    background-color: #030103; }
+    background-image: url("/img/fabric-black.png"); }
     .header-bar header nav ul {
       float: left;
       font-size: 1.2em;
@@ -152,7 +152,7 @@ main {
   right: 0;
   height: 34px;
   overflow: hidden;
-  background-color: #030103; }
+  background-image: url("/img/fabric-black.png"); }
 
 .horizontal-bar3 {
   position: absolute;
@@ -161,7 +161,7 @@ main {
   right: 0;
   height: 34px;
   overflow: hidden;
-  background-color: #030103; }
+  background-image: url("/img/fabric-black.png"); }
 
 .horizontal-bar4 {
   position: absolute;
@@ -170,7 +170,7 @@ main {
   right: 0;
   height: 34px;
   overflow: hidden;
-  background-color: #030103; }
+  background-image: url("/img/fabric-black.png"); }
 
 .color-box1 {
   position: absolute;
@@ -180,7 +180,7 @@ main {
   left: 0;
   width: 150px;
   overflow: hidden;
-  background-color: #F50701; }
+  background-image: url("/img/fabric-red.png"); }
   .color-box1 img {
     display: block;
     position: relative;
@@ -197,7 +197,7 @@ main {
       margin: 6px 0px;
       font-size: 1.1em;
       text-align: left;
-      background-color: #FFFEFF;
+      background-image: url("/img/fabric-white.png");
       transition: all 0.3s ease; }
       .color-box1 .contacts li a {
         display: inline-block;
