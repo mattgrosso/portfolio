@@ -224,6 +224,66 @@ main {
   overflow: hidden;
   background-image: url("/img/fabric-black.png"); }
 
+.c1 {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  bottom: 411vh;
+  right: 367vw;
+  overflow: hidden;
+  background-image: url("/img/fabric-red.png"); }
+
+.c2 {
+  position: absolute;
+  z-index: -1;
+  top: 167vh;
+  left: 133vw;
+  bottom: 275vh;
+  right: 162vw;
+  overflow: hidden;
+  background-image: url("/img/fabric-blue.png"); }
+
+.c3 {
+  position: absolute;
+  z-index: -1;
+  top: 167vh;
+  left: 338vw;
+  bottom: 275vh;
+  right: 82vw;
+  overflow: hidden;
+  background-image: url("/img/fabric-yellow.png"); }
+
+.c4 {
+  position: absolute;
+  z-index: -1;
+  top: 223vh;
+  left: 0;
+  bottom: 153vh;
+  right: 367vw;
+  overflow: hidden;
+  background-image: url("/img/fabric-black.png"); }
+
+.c5 {
+  position: absolute;
+  z-index: -1;
+  top: 350vh;
+  left: 317vw;
+  bottom: 52vh;
+  right: 0;
+  overflow: hidden;
+  background-image: url("/img/fabric-red.png"); }
+
+.c6 {
+  position: absolute;
+  z-index: -1;
+  top: 409vh;
+  left: 0;
+  bottom: 0;
+  right: 327vw;
+  overflow: hidden;
+  background-image: url("/img/fabric-blue.png"); }
+
 .vertical-bar1 {
   position: absolute;
   top: 0;
