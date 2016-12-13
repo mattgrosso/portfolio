@@ -281,8 +281,7 @@ main {
   top: 204vh;
   left: 163vw;
   height: 100vh;
-  width: 100vw;
-  border: solid red; }
+  width: 100vw; }
 
 .projects {
   position: absolute;
@@ -290,8 +289,7 @@ main {
   top: 72vh;
   left: 121vw;
   height: 100vh;
-  width: 100vw;
-  border: solid red; }
+  width: 100vw; }
 
 .bootstrap {
   position: absolute;
@@ -299,8 +297,7 @@ main {
   top: 75vh;
   left: 329vw;
   height: 100vh;
-  width: 100vw;
-  border: solid red; }
+  width: 100vw; }
 
 .responsive {
   position: absolute;
@@ -308,8 +305,7 @@ main {
   top: 265vh;
   left: 273vw;
   height: 100vh;
-  width: 100vw;
-  border: solid red; }
+  width: 100vw; }
 
 .recommend {
   position: absolute;
@@ -317,8 +313,7 @@ main {
   top: 329vh;
   left: 83vw;
   height: 100vh;
-  width: 100vw;
-  border: solid red; }
+  width: 100vw; }
 
 .about {
   position: absolute;
@@ -326,8 +321,7 @@ main {
   top: 215vh;
   left: 400vw;
   height: 100vh;
-  width: 100vw;
-  border: solid red; }
+  width: 100vw; }
 
 .vertical-bar1 {
   position: absolute;
