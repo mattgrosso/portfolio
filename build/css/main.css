@@ -127,7 +127,7 @@ main {
 
 .v6 {
   position: absolute;
-  top: 345vh;
+  top: 350vh;
   bottom: 0;
   left: 317vw;
   width: 34px;
@@ -137,7 +137,7 @@ main {
 .v7 {
   position: absolute;
   top: 0;
-  bottom: 222vh;
+  bottom: 275vh;
   left: 338vw;
   width: 34px;
   overflow: hidden;
@@ -145,7 +145,7 @@ main {
 
 .v8 {
   position: absolute;
-  top: 163vh;
+  top: 167vh;
   bottom: 153vh;
   left: 418vw;
   width: 34px;
@@ -158,6 +158,69 @@ main {
   bottom: 333vh;
   left: 460vw;
   width: 34px;
+  overflow: hidden;
+  background-image: url("/img/fabric-black.png"); }
+
+.h1 {
+  position: absolute;
+  top: 89vh;
+  left: 0;
+  right: 273vw;
+  height: 34px;
+  overflow: hidden;
+  background-image: url("/img/fabric-black.png"); }
+
+.h2 {
+  position: absolute;
+  top: 167vh;
+  left: 133vw;
+  right: 0;
+  height: 34px;
+  overflow: hidden;
+  background-image: url("/img/fabric-black.png"); }
+
+.h3 {
+  position: absolute;
+  top: 223vh;
+  left: 0;
+  right: 0;
+  height: 34px;
+  overflow: hidden;
+  background-image: url("/img/fabric-black.png"); }
+
+.h4 {
+  position: absolute;
+  top: 242vh;
+  left: 282vw;
+  right: 0;
+  height: 34px;
+  overflow: hidden;
+  background-image: url("/img/fabric-black.png"); }
+
+.h5 {
+  position: absolute;
+  top: 347vh;
+  left: 0;
+  right: 0;
+  height: 34px;
+  overflow: hidden;
+  background-image: url("/img/fabric-black.png"); }
+
+.h6 {
+  position: absolute;
+  top: 409vh;
+  left: 0;
+  right: 327vw;
+  height: 34px;
+  overflow: hidden;
+  background-image: url("/img/fabric-black.png"); }
+
+.h7 {
+  position: absolute;
+  top: 448vh;
+  left: 173vw;
+  right: 0;
+  height: 34px;
   overflow: hidden;
   background-image: url("/img/fabric-black.png"); }
 
