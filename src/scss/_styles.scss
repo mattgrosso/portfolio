@@ -269,6 +269,34 @@ main{
   left: 163vw;
   height: 100vh;
   width: 100vw;
+  header{
+    h1{
+      font-size: 6em;
+      color: $palette-white;
+      text-align: left;
+      padding: 20px 0px 0px 20px;
+    }
+    nav{
+      background-image: $black-canvas;
+      ul{
+        width: 100vw;
+        font-size: 1.2em;
+        font-weight: 200;
+        li{
+          float: right;
+          padding: 7px 10px 4px;
+          a{
+            color: $palette-white;
+            text-decoration: none;
+            &:hover{
+              color: $palette-white;
+              text-shadow: 0px 0px 2px $palette-white;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 .projects{
@@ -319,85 +347,6 @@ main{
 
 
 
-
-
-.vertical-bar1{
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  width: 34px;
-  overflow: hidden;
-  background-image: $black-canvas;
-}
-
-.vertical-bar2{
-  position: absolute;
-  top: 0;
-  left: 110vw;
-  width: 34px;
-  height: 130vh;
-  overflow: hidden;
-  background-image: $black-canvas;
-}
-
-.vertical-bar3{
-  position: absolute;
-  top: 130vh;
-  bottom: 0;
-  left: 150vw;
-  width: 34px;
-  overflow: hidden;
-  background-image: $black-canvas;
-}
-
-.vertical-bar4{
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  width: 34px;
-  overflow: hidden;
-  background-image: $black-canvas;
-}
-
-.header-bar{
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 146px;
-  overflow: hidden;
-  background-image: $blue-canvas;
-  header{
-    h1{
-      font-size: 6em;
-      color: $palette-white;
-      text-align: left;
-      padding: 20px 0px 0px 20px;
-    }
-    nav{
-      background-image: $black-canvas;
-      ul{
-        width: 100vw;
-        font-size: 1.2em;
-        font-weight: 200;
-        li{
-          float: right;
-          padding: 7px 10px 4px;
-          a{
-            color: $palette-white;
-            text-decoration: none;
-            &:hover{
-              color: $palette-white;
-              text-shadow: 0px 0px 2px $palette-white;
-            }
-          }
-        }
-      }
-    }
-  }
-}
 
 .horizontal-bar2{
   position: absolute;
