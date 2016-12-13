@@ -4,7 +4,7 @@ html{
 }
 
 body{
-  // overflow: hidden;
+  overflow: hidden;
   height: 100%;
   background-image: $white-canvas;
   font-family: $font;
@@ -74,7 +74,7 @@ main{
 .v4{
   position: absolute;
   top: 0;
-  bottom: 333vh;
+  bottom: 343vh;
   left: 227vw;
   width: 34px;
   overflow: hidden;
@@ -113,7 +113,7 @@ main{
 
 .v8{
   position: absolute;
-  top: 167vh;
+  top: 157vh;
   bottom: 153vh;
   left: 418vw;
   width: 34px;
@@ -124,7 +124,7 @@ main{
 .v9{
   position: absolute;
   top: 0;
-  bottom: 333vh;
+  bottom: 343vh;
   left: 460vw;
   width: 34px;
   overflow: hidden;
@@ -143,7 +143,7 @@ main{
 
 .h2{
   position: absolute;
-  top: 167vh;
+  top: 157vh;
   left: 133vw;
   right: 0;
   height: 34px;
@@ -163,7 +163,7 @@ main{
 
 .h4{
   position: absolute;
-  top: 242vh;
+  top: 250vh;
   left: 282vw;
   right: 0;
   height: 34px;
@@ -183,7 +183,7 @@ main{
 
 .h6{
   position: absolute;
-  top: 409vh;
+  top: 414vh;
   left: 0;
   right: 327vw;
   height: 34px;
@@ -215,7 +215,7 @@ main{
 .c2{
   position: absolute;
   z-index: -1;
-  top: 167vh;
+  top: 157vh;
   left: 133vw;
   bottom: 275vh;
   right: 162vw;
@@ -226,7 +226,7 @@ main{
 .c3{
   position: absolute;
   z-index: -1;
-  top: 167vh;
+  top: 157vh;
   left: 338vw;
   bottom: 275vh;
   right: 82vw;
@@ -259,12 +259,83 @@ main{
 .c6{
   position: absolute;
   z-index: -1;
-  top: 409vh;
+  top: 414vh;
   left: 0;
   bottom: 0;
   right: 327vw;
   overflow: hidden;
   background-image: $blue-canvas;
+}
+
+.c7{
+  position: absolute;
+  z-index: -1;
+  top: 223vh;
+  left: 282vw;
+  bottom: 250vh;
+  right: 82vw;
+  overflow: hidden;
+  background-image: $black-canvas;
+}
+
+.homepage{
+  position: absolute;
+  box-sizing: border-box;
+  top: 204vh;
+  left: 163vw;
+  height: 100vh;
+  width: 100vw;
+  border: solid red;
+}
+
+.projects{
+  position: absolute;
+  box-sizing: border-box;
+  top: 72vh;
+  left: 121vw;
+  height: 100vh;
+  width: 100vw;
+  border: solid red;
+}
+
+.bootstrap{
+  position: absolute;
+  box-sizing: border-box;
+  top: 75vh;
+  left: 329vw;
+  height: 100vh;
+  width: 100vw;
+  border: solid red;
+}
+
+.responsive{
+  position: absolute;
+  box-sizing: border-box;
+  top: 265vh;
+  left: 273vw;
+  height: 100vh;
+  width: 100vw;
+  border: solid red;
+}
+
+.recommend{
+  position: absolute;
+  box-sizing: border-box;
+  top: 329vh;
+  left: 83vw;
+  height: 100vh;
+  width: 100vw;
+  border: solid red;
+}
+
+.about{
+  position: absolute;
+  box-sizing: border-box;
+  top: 215vh;
+  left: 400vw;
+  height: 100vh;
+  width: 100vw;
+  border: solid red;
 }
 
 .vertical-bar1{
