@@ -34,248 +34,232 @@ main{
 .moveable-canvas{
   z-index: -2;
   position: absolute;
-  top: 0;
-  left: 0;
+  top: -250vh;
+  left: -250vw;
   height: 500vh;
   width: 500vw;
+  background-image: $white-canvas;
   transition: all 2s ease;
 }
 
-.v1{
-  position: absolute;
-  top: 89vh;
-  bottom: 275vh;
-  left: 62vw;
-  width: 34px;
-  overflow: hidden;
-  background-image: $black-canvas;
+.art-lines{
+  .v1{
+    position: absolute;
+    top: 89vh;
+    bottom: 275vh;
+    left: 62vw;
+    width: 34px;
+    overflow: hidden;
+    background-image: $black-canvas;
+  }
+  .v2{
+    position: absolute;
+    top: 0;
+    bottom: 153vh;
+    left: 133vw;
+    width: 34px;
+    overflow: hidden;
+    background-image: $black-canvas;
+  }
+  .v3{
+    position: absolute;
+    top: 223vh;
+    bottom: 0;
+    left: 173vw;
+    width: 34px;
+    overflow: hidden;
+    background-image: $black-canvas;
+  }
+  .v4{
+    position: absolute;
+    top: 0;
+    bottom: 343vh;
+    left: 227vw;
+    width: 34px;
+    overflow: hidden;
+    background-image: $black-canvas;
+  }
+  .v5{
+    position: absolute;
+    top: 223vh;
+    bottom: 153vh;
+    left: 282vw;
+    width: 34px;
+    overflow: hidden;
+    background-image: $black-canvas;
+  }
+  .v6{
+    position: absolute;
+    top: 350vh;
+    bottom: 0;
+    left: 317vw;
+    width: 34px;
+    overflow: hidden;
+    background-image: $black-canvas;
+  }
+  .v7{
+    position: absolute;
+    top: 0;
+    bottom: 275vh;
+    left: 338vw;
+    width: 34px;
+    overflow: hidden;
+    background-image: $black-canvas;
+  }
+  .v8{
+    position: absolute;
+    top: 157vh;
+    bottom: 153vh;
+    left: 418vw;
+    width: 34px;
+    overflow: hidden;
+    background-image: $black-canvas;
+  }
+  .v9{
+    position: absolute;
+    top: 0;
+    bottom: 343vh;
+    left: 460vw;
+    width: 34px;
+    overflow: hidden;
+    background-image: $black-canvas;
+  }
+  .h1{
+    position: absolute;
+    top: 89vh;
+    left: 0;
+    right: 273vw;
+    height: 34px;
+    overflow: hidden;
+    background-image: $black-canvas
+  }
+  .h2{
+    position: absolute;
+    top: 157vh;
+    left: 133vw;
+    right: 0;
+    height: 34px;
+    overflow: hidden;
+    background-image: $black-canvas
+  }
+  .h3{
+    position: absolute;
+    top: 223vh;
+    left: 0;
+    right: 0;
+    height: 34px;
+    overflow: hidden;
+    background-image: $black-canvas
+  }
+  .h4{
+    position: absolute;
+    top: 250vh;
+    left: 282vw;
+    right: 0;
+    height: 34px;
+    overflow: hidden;
+    background-image: $black-canvas
+  }
+  .h5{
+    position: absolute;
+    top: 347vh;
+    left: 0;
+    right: 0;
+    height: 34px;
+    overflow: hidden;
+    background-image: $black-canvas
+  }
+  .h6{
+    position: absolute;
+    top: 414vh;
+    left: 0;
+    right: 327vw;
+    height: 34px;
+    overflow: hidden;
+    background-image: $black-canvas
+  }
+  .h7{
+    position: absolute;
+    top: 448vh;
+    left: 173vw;
+    right: 0;
+    height: 34px;
+    overflow: hidden;
+    background-image: $black-canvas
+  }
 }
 
-.v2{
-  position: absolute;
-  top: 0;
-  bottom: 153vh;
-  left: 133vw;
-  width: 34px;
-  overflow: hidden;
-  background-image: $black-canvas;
-}
-
-.v3{
-  position: absolute;
-  top: 223vh;
-  bottom: 0;
-  left: 173vw;
-  width: 34px;
-  overflow: hidden;
-  background-image: $black-canvas;
-}
-
-.v4{
-  position: absolute;
-  top: 0;
-  bottom: 343vh;
-  left: 227vw;
-  width: 34px;
-  overflow: hidden;
-  background-image: $black-canvas;
-}
-
-.v5{
-  position: absolute;
-  top: 223vh;
-  bottom: 153vh;
-  left: 282vw;
-  width: 34px;
-  overflow: hidden;
-  background-image: $black-canvas;
-}
-
-.v6{
-  position: absolute;
-  top: 350vh;
-  bottom: 0;
-  left: 317vw;
-  width: 34px;
-  overflow: hidden;
-  background-image: $black-canvas;
-}
-
-.v7{
-  position: absolute;
-  top: 0;
-  bottom: 275vh;
-  left: 338vw;
-  width: 34px;
-  overflow: hidden;
-  background-image: $black-canvas;
-}
-
-.v8{
-  position: absolute;
-  top: 157vh;
-  bottom: 153vh;
-  left: 418vw;
-  width: 34px;
-  overflow: hidden;
-  background-image: $black-canvas;
-}
-
-.v9{
-  position: absolute;
-  top: 0;
-  bottom: 343vh;
-  left: 460vw;
-  width: 34px;
-  overflow: hidden;
-  background-image: $black-canvas;
-}
-
-.h1{
-  position: absolute;
-  top: 89vh;
-  left: 0;
-  right: 273vw;
-  height: 34px;
-  overflow: hidden;
-  background-image: $black-canvas
-}
-
-.h2{
-  position: absolute;
-  top: 157vh;
-  left: 133vw;
-  right: 0;
-  height: 34px;
-  overflow: hidden;
-  background-image: $black-canvas
-}
-
-.h3{
-  position: absolute;
-  top: 223vh;
-  left: 0;
-  right: 0;
-  height: 34px;
-  overflow: hidden;
-  background-image: $black-canvas
-}
-
-.h4{
-  position: absolute;
-  top: 250vh;
-  left: 282vw;
-  right: 0;
-  height: 34px;
-  overflow: hidden;
-  background-image: $black-canvas
-}
-
-.h5{
-  position: absolute;
-  top: 347vh;
-  left: 0;
-  right: 0;
-  height: 34px;
-  overflow: hidden;
-  background-image: $black-canvas
-}
-
-.h6{
-  position: absolute;
-  top: 414vh;
-  left: 0;
-  right: 327vw;
-  height: 34px;
-  overflow: hidden;
-  background-image: $black-canvas
-}
-
-.h7{
-  position: absolute;
-  top: 448vh;
-  left: 173vw;
-  right: 0;
-  height: 34px;
-  overflow: hidden;
-  background-image: $black-canvas
-}
-
-.c1{
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  bottom: 411vh;
-  right: 367vw;
-  overflow: hidden;
-  background-image: $red-canvas;
-}
-
-.c2{
-  position: absolute;
-  z-index: -1;
-  top: 157vh;
-  left: 133vw;
-  bottom: 275vh;
-  right: 162vw;
-  overflow: hidden;
-  background-image: $blue-canvas;
-}
-
-.c3{
-  position: absolute;
-  z-index: -1;
-  top: 157vh;
-  left: 338vw;
-  bottom: 275vh;
-  right: 82vw;
-  overflow: hidden;
-  background-image: $yellow-canvas;
-}
-
-.c4{
-  position: absolute;
-  z-index: -1;
-  top: 223vh;
-  left: 0;
-  bottom: 153vh;
-  right: 367vw;
-  overflow: hidden;
-  background-image: $black-canvas;
-}
-
-.c5{
-  position: absolute;
-  z-index: -1;
-  top: 350vh;
-  left: 317vw;
-  bottom: 52vh;
-  right: 0;
-  overflow: hidden;
-  background-image: $red-canvas;
-}
-
-.c6{
-  position: absolute;
-  z-index: -1;
-  top: 414vh;
-  left: 0;
-  bottom: 0;
-  right: 327vw;
-  overflow: hidden;
-  background-image: $blue-canvas;
-}
-
-.c7{
-  position: absolute;
-  z-index: -1;
-  top: 223vh;
-  left: 282vw;
-  bottom: 250vh;
-  right: 82vw;
-  overflow: hidden;
-  background-image: $black-canvas;
+.art-colors{
+  .c1{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    bottom: 411vh;
+    right: 367vw;
+    overflow: hidden;
+    background-image: $red-canvas;
+  }
+  .c2{
+    position: absolute;
+    z-index: -1;
+    top: 157vh;
+    left: 133vw;
+    bottom: 275vh;
+    right: 162vw;
+    overflow: hidden;
+    background-image: $blue-canvas;
+  }
+  .c3{
+    position: absolute;
+    z-index: -1;
+    top: 157vh;
+    left: 338vw;
+    bottom: 275vh;
+    right: 82vw;
+    overflow: hidden;
+    background-image: $yellow-canvas;
+  }
+  .c4{
+    position: absolute;
+    z-index: -1;
+    top: 223vh;
+    left: 0;
+    bottom: 153vh;
+    right: 367vw;
+    overflow: hidden;
+    background-image: $black-canvas;
+  }
+  .c5{
+    position: absolute;
+    z-index: -1;
+    top: 350vh;
+    left: 317vw;
+    bottom: 52vh;
+    right: 0;
+    overflow: hidden;
+    background-image: $red-canvas;
+  }
+  .c6{
+    position: absolute;
+    z-index: -1;
+    top: 414vh;
+    left: 0;
+    bottom: 0;
+    right: 327vw;
+    overflow: hidden;
+    background-image: $blue-canvas;
+  }
+  .c7{
+    position: absolute;
+    z-index: -1;
+    top: 223vh;
+    left: 282vw;
+    bottom: 250vh;
+    right: 82vw;
+    overflow: hidden;
+    background-image: $black-canvas;
+  }
 }
 
 .homepage{
@@ -337,6 +321,11 @@ main{
   width: 100vw;
   border: solid red;
 }
+
+
+
+
+
 
 .vertical-bar1{
   position: absolute;
