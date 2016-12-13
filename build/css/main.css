@@ -50,7 +50,6 @@ html {
   position: relative; }
 
 body {
-  overflow: hidden;
   height: 100%;
   background-image: url("/img/fabric-white.png");
   font-family: "Droid Serif", serif; }
@@ -77,15 +76,96 @@ main {
   position: absolute;
   top: 0;
   left: 0;
-  height: 300vh;
-  width: 300vw;
+  height: 500vh;
+  width: 500vw;
   transition: all 2s ease; }
+
+.v1 {
+  position: absolute;
+  top: 89vh;
+  bottom: 275vh;
+  left: 62vw;
+  width: 34px;
+  overflow: hidden;
+  background-image: url("/img/fabric-black.png"); }
+
+.v2 {
+  position: absolute;
+  top: 0;
+  bottom: 153vh;
+  left: 133vw;
+  width: 34px;
+  overflow: hidden;
+  background-image: url("/img/fabric-black.png"); }
+
+.v3 {
+  position: absolute;
+  top: 223vh;
+  bottom: 0;
+  left: 173vw;
+  width: 34px;
+  overflow: hidden;
+  background-image: url("/img/fabric-black.png"); }
+
+.v4 {
+  position: absolute;
+  top: 0;
+  bottom: 333vh;
+  left: 227vw;
+  width: 34px;
+  overflow: hidden;
+  background-image: url("/img/fabric-black.png"); }
+
+.v5 {
+  position: absolute;
+  top: 223vh;
+  bottom: 153vh;
+  left: 282vw;
+  width: 34px;
+  overflow: hidden;
+  background-image: url("/img/fabric-black.png"); }
+
+.v6 {
+  position: absolute;
+  top: 345vh;
+  bottom: 0;
+  left: 317vw;
+  width: 34px;
+  overflow: hidden;
+  background-image: url("/img/fabric-black.png"); }
+
+.v7 {
+  position: absolute;
+  top: 0;
+  bottom: 222vh;
+  left: 338vw;
+  width: 34px;
+  overflow: hidden;
+  background-image: url("/img/fabric-black.png"); }
+
+.v8 {
+  position: absolute;
+  top: 163vh;
+  bottom: 153vh;
+  left: 418vw;
+  width: 34px;
+  overflow: hidden;
+  background-image: url("/img/fabric-black.png"); }
+
+.v9 {
+  position: absolute;
+  top: 0;
+  bottom: 333vh;
+  left: 460vw;
+  width: 34px;
+  overflow: hidden;
+  background-image: url("/img/fabric-black.png"); }
 
 .vertical-bar1 {
   position: absolute;
   top: 0;
   bottom: 0;
-  left: 150px;
+  left: 0;
   width: 34px;
   overflow: hidden;
   background-image: url("/img/fabric-black.png"); }
