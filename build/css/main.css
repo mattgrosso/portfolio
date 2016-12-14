@@ -289,32 +289,32 @@ main {
     color: #FFFEFF;
     text-align: left;
     padding: 20px 0px 0px 20px; }
-  .homepage header nav {
+  .homepage header .main-nav {
     position: absolute;
     top: 25vh;
     width: 86vw;
     margin-left: 13vw; }
-    .homepage header nav ul {
+    .homepage header .main-nav ul {
       width: 100vw;
       font-size: 3.5vh;
       font-weight: 200;
       font-family: "Raleway", sans-serif; }
-      .homepage header nav ul li {
+      .homepage header .main-nav ul li {
         position: relative;
         float: left;
         text-align: center;
         margin: 10px; }
-        .homepage header nav ul li a {
+        .homepage header .main-nav ul li a {
           display: inline-block;
           color: #030103;
           width: 27vw;
           height: 35vh;
           line-height: 35vh;
           text-decoration: none; }
-          .homepage header nav ul li a:hover {
+          .homepage header .main-nav ul li a:hover {
             color: #030103;
             z-index: 2; }
-        .homepage header nav ul li.nav-projects:before {
+        .homepage header .main-nav ul li.nav-projects:before {
           content: '';
           box-sizing: border-box;
           position: absolute;
@@ -327,7 +327,7 @@ main {
           opacity: 0.075;
           pointer-events: none;
           transition: all 0.25s ease; }
-        .homepage header nav ul li.nav-about:before {
+        .homepage header .main-nav ul li.nav-about:before {
           content: '';
           box-sizing: border-box;
           position: absolute;
@@ -340,7 +340,7 @@ main {
           opacity: 0.1;
           pointer-events: none;
           transition: all 0.25s ease; }
-        .homepage header nav ul li.nav-recommend:before {
+        .homepage header .main-nav ul li.nav-recommend:before {
           content: '';
           box-sizing: border-box;
           position: absolute;
@@ -353,7 +353,7 @@ main {
           opacity: 0.1;
           pointer-events: none;
           transition: all 0.25s ease; }
-        .homepage header nav ul li.nav-responsive:before {
+        .homepage header .main-nav ul li.nav-responsive:before {
           content: '';
           box-sizing: border-box;
           position: absolute;
@@ -366,7 +366,7 @@ main {
           opacity: 0.1;
           pointer-events: none;
           transition: all 0.25s ease; }
-        .homepage header nav ul li.nav-bootstrap:before {
+        .homepage header .main-nav ul li.nav-bootstrap:before {
           content: '';
           box-sizing: border-box;
           position: absolute;
@@ -379,12 +379,29 @@ main {
           opacity: 0.1;
           pointer-events: none;
           transition: all 0.25s ease; }
-        .homepage header nav ul li:hover:before {
+        .homepage header .main-nav ul li:hover:before {
           opacity: 0.75; }
+  .homepage header .contact-buttons {
+    position: relative;
+    top: 19.1vh;
+    right: 1vw; }
+    .homepage header .contact-buttons ul {
+      width: 100vw;
+      font-size: 1.2em;
+      font-weight: 200; }
+      .homepage header .contact-buttons ul li {
+        float: right;
+        padding: 7px 10px 4px; }
+        .homepage header .contact-buttons ul li a {
+          color: #FFFEFF;
+          text-decoration: none; }
+        .homepage header .contact-buttons ul li:hover {
+          color: #FFFEFF;
+          text-shadow: 0px 0px 2px #FFFEFF; }
   .homepage .contacts-box {
-    position: absolute;
+    position: relative;
     box-sizing: border-box;
-    top: 26vh;
+    top: 19.45vh;
     left: 0;
     width: 10vw;
     height: 60vh;
@@ -395,7 +412,7 @@ main {
       color: #FFFEFF;
       line-height: 34px;
       text-align: center;
-      margin-bottom: 15px;
+      margin: 15px 0px;
       background-image: url("/img/fabric-blue.png"); }
     .homepage .contacts-box ul {
       position: relative;

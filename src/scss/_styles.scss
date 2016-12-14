@@ -278,7 +278,7 @@ main{
       text-align: left;
       padding: 20px 0px 0px 20px;
     }
-    nav{
+    .main-nav{
       position: absolute;
       top: 25vh;
       width: 86vw;
@@ -381,11 +381,33 @@ main{
         }
       }
     }
+    .contact-buttons{
+      position: relative;
+      top: 19.1vh;
+      right: 1vw;
+      ul{
+        width: 100vw;
+        font-size: 1.2em;
+        font-weight: 200;
+        li{
+          float: right;
+          padding: 7px 10px 4px;
+          a{
+            color: $palette-white;
+            text-decoration: none;
+          }
+          &:hover{
+            color: $palette-white;
+            text-shadow: 0px 0px 2px $palette-white;
+          }
+        }
+      }
+    }
   }
   .contacts-box{
-    position: absolute;
+    position: relative;
     box-sizing: border-box;
-    top: 26vh;
+    top: 19.45vh;
     left: 0;
     width: 10vw;
     height: 60vh;
@@ -396,7 +418,7 @@ main{
       color: $palette-white;
       line-height: 34px;
       text-align: center;
-      margin-bottom: 15px;
+      margin: 15px 0px;
       background-image: $blue-canvas
     }
     ul{
