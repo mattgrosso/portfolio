@@ -26,7 +26,7 @@
       top: '-215vh',
       left: '-400vw'
     }
-  }
+  };
 
   if (window.location.hash === '') {
     console.log('/');

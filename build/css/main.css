@@ -295,17 +295,18 @@ main {
     margin-left: 13vw; }
     .homepage header nav ul {
       width: 100vw;
-      font-size: 1.7em;
+      font-size: 3.5vh;
       font-weight: 200;
       font-family: "Raleway", sans-serif; }
       .homepage header nav ul li {
         position: relative;
         float: left;
-        text-align: center; }
+        text-align: center;
+        margin: 10px; }
         .homepage header nav ul li a {
           display: inline-block;
           color: #030103;
-          width: 28vw;
+          width: 27vw;
           height: 35vh;
           line-height: 35vh;
           text-decoration: none; }
@@ -320,7 +321,59 @@ main {
           height: 100%;
           background-image: url("/img/gametable.png");
           background-repeat: no-repeat;
-          background-size: 50%;
+          background-size: 62%;
+          background-position: 50% 50%;
+          opacity: 0.075;
+          pointer-events: none;
+          transition: all 0.25s ease; }
+        .homepage header nav ul li.nav-about:before {
+          content: '';
+          box-sizing: border-box;
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          background-image: url("/img/Gaming-Flag.jpg");
+          background-repeat: no-repeat;
+          background-size: 70%;
+          background-position: 50% 50%;
+          opacity: 0.1;
+          pointer-events: none;
+          transition: all 0.25s ease; }
+        .homepage header nav ul li.nav-recommend:before {
+          content: '';
+          box-sizing: border-box;
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          background-image: url("/img/thumbsup.png");
+          background-repeat: no-repeat;
+          background-size: 60%;
+          background-position: 50% 50%;
+          opacity: 0.1;
+          pointer-events: none;
+          transition: all 0.25s ease; }
+        .homepage header nav ul li.nav-responsive:before {
+          content: '';
+          box-sizing: border-box;
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          background-image: url("/img/phone.png");
+          background-repeat: no-repeat;
+          background-size: 80%;
+          background-position: 50% 50%;
+          opacity: 0.1;
+          pointer-events: none;
+          transition: all 0.25s ease; }
+        .homepage header nav ul li.nav-bootstrap:before {
+          content: '';
+          box-sizing: border-box;
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          background-image: url("/img/bootstrap.png");
+          background-repeat: no-repeat;
+          background-size: 60%;
           background-position: 50% 50%;
           opacity: 0.1;
           pointer-events: none;
