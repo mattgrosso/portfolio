@@ -301,24 +301,26 @@ main{
             text-decoration: none;
             &:hover{
               color: $palette-black;
-              text-shadow: 0px 0px 2px $palette-white;
+              z-index: 2;
             }
           }
           &.nav-projects:before{
             content: '';
-            display: block;
+            box-sizing: border-box;
             position: absolute;
-            top: 0;
-            left: 0;
             width: 100%;
             height: 100%;
             background-image: url('/img/gametable.png');
             background-repeat: no-repeat;
-            background-size: 45%;
+            background-size: 50%;
             background-position: 50% 50%;
-            opacity: 0.2;
+            opacity: 0.1;
+            pointer-events: none;
+            transition: all 0.25s ease
           }
-
+          &:hover:before{
+            opacity: 0.75;
+          }
         }
       }
     }
