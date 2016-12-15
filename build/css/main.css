@@ -79,8 +79,7 @@ main {
   left: -250vw;
   height: 500vh;
   width: 500vw;
-  background-image: url("/img/fabric-white.png");
-  transition: all 2s ease; }
+  background-image: url("/img/fabric-white.png"); }
 
 .art-lines .v1 {
   position: absolute;
@@ -450,6 +449,34 @@ main {
   left: 121vw;
   height: 100vh;
   width: 100vw; }
+  .projects header h1 {
+    float: right;
+    text-align: right;
+    font-size: 9vh;
+    padding: 6.7vh 1vw 0vh 0vw; }
+  .projects .projects-main-view {
+    position: absolute;
+    top: 0vh;
+    bottom: 0vh;
+    left: 14.8vw;
+    right: 0vw; }
+  .projects .main-nav {
+    position: absolute;
+    top: 85.2vh;
+    right: 0.5vw; }
+    .projects .main-nav ul {
+      width: 100vw;
+      font-size: 1.2em;
+      font-weight: 200; }
+      .projects .main-nav ul li {
+        float: right;
+        padding: 7px 10px 4px; }
+        .projects .main-nav ul li a {
+          color: #FFFEFF;
+          text-decoration: none; }
+        .projects .main-nav ul li:hover {
+          color: #FFFEFF;
+          text-shadow: 0px 0px 2px #FFFEFF; }
 
 .bootstrap {
   position: absolute;
