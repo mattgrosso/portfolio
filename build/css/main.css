@@ -79,7 +79,8 @@ main {
   left: -250vw;
   height: 500vh;
   width: 500vw;
-  background-image: url("/img/fabric-white.png"); }
+  background-image: url("/img/fabric-white.png");
+  transition: all 2s ease; }
 
 .art-lines .v1 {
   position: absolute;
@@ -463,7 +464,8 @@ main {
   .projects .main-nav {
     position: absolute;
     top: 85.2vh;
-    right: 0.5vw; }
+    right: 0.5vw;
+    font-family: "Raleway", sans-serif; }
     .projects .main-nav ul {
       width: 100vw;
       font-size: 1.2em;
@@ -477,6 +479,44 @@ main {
         .projects .main-nav ul li:hover {
           color: #FFFEFF;
           text-shadow: 0px 0px 2px #FFFEFF; }
+  .projects .projects-nav {
+    position: absolute;
+    top: 21vh;
+    bottom: 15vh;
+    left: 0vw;
+    right: 88vw;
+    font-family: "Raleway", sans-serif; }
+    .projects .projects-nav ul {
+      position: relative;
+      margin-top: 3vh; }
+      .projects .projects-nav ul li {
+        position: relative;
+        left: 0;
+        margin: 1vw 0px;
+        width: 100%;
+        font-size: 1.5vw;
+        font-weight: 500;
+        text-align: left;
+        background-image: url("/img/fabric-red.png");
+        transition: all 0.3s ease; }
+        .projects .projects-nav ul li a {
+          display: inline-block;
+          box-sizing: border-box;
+          color: #030103;
+          text-decoration: none;
+          padding: 9px 0px 9px 17px;
+          width: 100%; }
+          .projects .projects-nav ul li a i {
+            position: relative;
+            left: 0px;
+            float: right;
+            padding-right: 9px;
+            transition: all 0.3s ease; }
+        .projects .projects-nav ul li:hover {
+          left: 0.9vw;
+          width: 92.5%; }
+          .projects .projects-nav ul li:hover a {
+            color: #FFFEFF; }
 
 .bootstrap {
   position: absolute;

@@ -39,7 +39,7 @@ main{
   height: 500vh;
   width: 500vw;
   background-image: $white-canvas;
-  // transition: all 2s ease;
+  transition: all 2s ease;
 }
 
 .art-lines{
@@ -483,6 +483,7 @@ main{
     position: absolute;
     top: 85.2vh;
     right: 0.5vw;
+    font-family: $sans-serif-font;
     ul{
       width: 100vw;
       font-size: 1.2em;
@@ -497,6 +498,51 @@ main{
         &:hover{
           color: $palette-white;
           text-shadow: 0px 0px 2px $palette-white;
+        }
+      }
+    }
+  }
+  .projects-nav{
+    position: absolute;
+    top: 21vh;
+    bottom: 15vh;
+    left: 0vw;
+    right: 88vw;
+    font-family: $sans-serif-font;
+    ul{
+      position: relative;
+      margin-top: 3vh;
+      li{
+        position: relative;
+        left: 0;
+        margin: 1vw 0px;
+        width: 100%;
+        font-size: 1.5vw;
+        font-weight: 500;
+        text-align: left;
+        background-image: $red-canvas;
+        transition: all 0.3s ease;
+        a{
+          display: inline-block;
+          box-sizing: border-box;
+          color: $palette-black;
+          text-decoration: none;
+          padding: 9px 0px 9px 17px;
+          width: 100%;
+          i{
+            position: relative;
+            left: 0px;
+            float: right;
+            padding-right: 9px;
+            transition: all 0.3s ease;
+          }
+        }
+        &:hover{
+          left: 0.9vw;
+          width: 92.5%;
+          a{
+            color: $palette-white;
+          }
         }
       }
     }
