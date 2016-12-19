@@ -474,10 +474,17 @@ main{
   }
   .projects-main-view{
     position: absolute;
-    top: 0vh;
-    bottom: 0vh;
-    left: 14.8vw;
+    top: 17vh;
+    bottom: 15vh;
+    left: 12vw;
     right: 0vw;
+    margin-top: 34px;
+    margin-left: 34px;
+    .project-view-frame{
+      width: 32vh;
+      height: 57vh;
+      border: solid red;
+    }
   }
   .main-nav{
     position: absolute;

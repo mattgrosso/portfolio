@@ -457,10 +457,16 @@ main {
     padding: 6.7vh 1vw 0vh 0vw; }
   .projects .projects-main-view {
     position: absolute;
-    top: 0vh;
-    bottom: 0vh;
-    left: 14.8vw;
-    right: 0vw; }
+    top: 17vh;
+    bottom: 15vh;
+    left: 12vw;
+    right: 0vw;
+    margin-top: 34px;
+    margin-left: 34px; }
+    .projects .projects-main-view .project-view-frame {
+      width: 32vh;
+      height: 57vh;
+      border: solid red; }
   .projects .main-nav {
     position: absolute;
     top: 85.2vh;
