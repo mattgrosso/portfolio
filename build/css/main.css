@@ -463,10 +463,22 @@ main {
     right: 0vw;
     margin-top: 34px;
     margin-left: 34px; }
-    .projects .projects-main-view .project-view-frame {
-      width: 32vh;
-      height: 57vh;
+    .projects .projects-main-view .iframe-wrapper {
+      width: 25.6vw;
+      height: 55.7vh;
+      padding: 0;
+      overflow: hidden;
       border: solid red; }
+    .projects .projects-main-view .project-view-frame {
+      width: 36.7vw;
+      height: 79.1vh;
+      zoom: 1.4;
+      -moz-transform: scale(0.5);
+      -moz-transform-origin: 0 0;
+      -o-transform: scale(0.5);
+      -o-transform-origin: 0 0;
+      -webkit-transform: scale(0.5);
+      -webkit-transform-origin: 0 0; }
   .projects .main-nav {
     position: absolute;
     top: 85.2vh;
@@ -524,6 +536,9 @@ main {
           .projects .projects-nav ul li:hover a {
             color: #FFFEFF; }
 
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  .project-view-frame {
+    zoom: 1; } }
 .bootstrap {
   position: absolute;
   box-sizing: border-box;

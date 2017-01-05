@@ -480,10 +480,26 @@ main{
     right: 0vw;
     margin-top: 34px;
     margin-left: 34px;
-    .project-view-frame{
-      width: 32vh;
-      height: 57vh;
+    .iframe-wrapper{
+      width: 25.6vw;
+      height: 55.7vh;
+      padding: 0;
+      overflow: hidden;
       border: solid red;
+    }
+    .project-view-frame{
+      width: 36.7vw;
+      height: 79.1vh;
+      // border: 0px;
+      zoom: 1.4;
+      -moz-transform: scale(0.5);
+      -moz-transform-origin: 0 0;
+      -o-transform: scale(0.5);
+      -o-transform-origin: 0 0;
+      -webkit-transform: scale(0.5);
+      -webkit-transform-origin: 0 0;
+      // width: 32vh;
+      // height: 57vh;
     }
   }
   .main-nav{
@@ -553,6 +569,12 @@ main{
         }
       }
     }
+  }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0){
+  .project-view-frame{
+    zoom: 1;
   }
 }
 
