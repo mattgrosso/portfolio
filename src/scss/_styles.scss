@@ -465,6 +465,33 @@ main{
   height: 100vh;
   width: 100vw;
   header{
+    .contact-buttons{
+      position: absolute;
+      top: 0vh;
+      left: 0vw;
+      width: 11.4vw;
+      height: 16.5vh;
+      ul{
+        position: absolute;
+        top: 2.5vh;
+        left: 1.5vw;
+        width: 9vw;
+        height: 9vw;
+        li {
+          float: left;
+          width: 4.5vw;
+          height: 4.5vw;
+          text-align: center;
+          font-size: 3.5vw;
+          a{
+            color: $palette-black;
+            &:hover{
+              color: $palette-white
+            }
+          }
+        }
+      }
+    }
     h1{
     float: right;
     text-align: right;
