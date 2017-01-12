@@ -457,16 +457,16 @@ main {
     height: 16.5vh; }
     .projects header .contact-buttons ul {
       position: absolute;
-      top: 2.5vh;
-      left: 1.5vw;
-      width: 9vw;
-      height: 9vw; }
+      top: 4.5vh;
+      left: 2.5vw;
+      width: 7vw;
+      height: 7vw; }
       .projects header .contact-buttons ul li {
         float: left;
-        width: 4.5vw;
-        height: 4.5vw;
+        width: 3.5vw;
+        height: 3.5vw;
         text-align: center;
-        font-size: 3.5vw; }
+        font-size: 2.5vw; }
         .projects header .contact-buttons ul li a {
           color: #030103; }
           .projects header .contact-buttons ul li a:hover {
