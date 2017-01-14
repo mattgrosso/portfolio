@@ -136,6 +136,10 @@
       .state('gametable', {
         url: '/projects/gametable',
         templateUrl: '/templates/gametable.template.html'
+      })
+      .state('tictactoe', {
+        url: '/projects/tictactoe',
+        templateUrl: '/templates/tictactoe.template.html'
       });
   }
 

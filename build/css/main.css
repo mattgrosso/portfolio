@@ -485,42 +485,18 @@ main {
     right: 0vw;
     margin-top: 34px;
     margin-left: 34px; }
-    .projects .projects-main-view .iframe-wrapper {
-      position: absolute;
-      top: 8.5vh;
-      left: 11vw;
-      width: 28vh;
-      height: 47vh;
-      padding: 0;
-      overflow: hidden; }
-      .projects .projects-main-view .iframe-wrapper .project-view-frame {
-        width: 54vh;
-        height: 92.7vh;
-        zoom: 1;
-        -moz-transform: scale(0.5);
-        -moz-transform-origin: 0 0;
-        -o-transform: scale(0.5);
-        -o-transform-origin: 0 0;
-        -webkit-transform: scale(0.5);
-        -webkit-transform-origin: 0 0; }
-    .projects .projects-main-view .iphone-frame {
-      pointer-events: none;
-      position: absolute;
-      top: 1.8vh;
-      left: 10.3vw;
-      width: 30vh;
-      height: 60vh; }
     .projects .projects-main-view .project-description {
       position: absolute;
       top: 3vh;
-      left: 45vw;
-      width: 31vw;
+      right: 2vw;
+      width: 34vh;
       height: 50vh;
       padding: 0px 20px 30px;
       font-family: "Raleway", sans-serif;
       border: solid #030103;
       border-radius: 3px;
-      box-shadow: 3px 5px 18px -8px black; }
+      box-shadow: 3px 5px 18px -8px black;
+      overflow: scroll; }
       .projects .projects-main-view .project-description a {
         text-decoration: none;
         color: inherit;
@@ -558,7 +534,51 @@ main {
           margin: 0px 0px 8px;
           padding-left: 5%;
           float: left;
-          width: 15%; }
+          width: 20%; }
+    .projects .projects-main-view .gametable-view .iframe-wrapper {
+      position: absolute;
+      top: 8.5vh;
+      left: 11vw;
+      width: 28vh;
+      height: 47vh;
+      padding: 0;
+      overflow: hidden; }
+      .projects .projects-main-view .gametable-view .iframe-wrapper .project-view-frame {
+        width: 54vh;
+        height: 92.7vh;
+        zoom: 1;
+        -moz-transform: scale(0.5);
+        -moz-transform-origin: 0 0;
+        -o-transform: scale(0.5);
+        -o-transform-origin: 0 0;
+        -webkit-transform: scale(0.5);
+        -webkit-transform-origin: 0 0; }
+    .projects .projects-main-view .gametable-view .iphone-frame {
+      pointer-events: none;
+      position: absolute;
+      top: 1.8vh;
+      left: 10.3vw;
+      width: 30vh;
+      height: 60vh; }
+    .projects .projects-main-view .tictactoe-view .iframe-wrapper {
+      position: absolute;
+      top: 3vh;
+      left: 2vw;
+      right: 45vh;
+      height: 49vh;
+      padding: 0;
+      border: solid #030103;
+      overflow: hidden; }
+      .projects .projects-main-view .tictactoe-view .iframe-wrapper .project-view-frame {
+        width: 92vw;
+        height: 95vh;
+        zoom: 1;
+        -moz-transform: scale(0.5);
+        -moz-transform-origin: 0 0;
+        -o-transform: scale(0.5);
+        -o-transform-origin: 0 0;
+        -webkit-transform: scale(0.5);
+        -webkit-transform-origin: 0 0; }
   .projects .main-nav {
     position: absolute;
     top: 85.2vh;
