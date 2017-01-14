@@ -34,7 +34,7 @@
       'left': hashList.home.left,
     });
   }
-  else if (window.location.hash === '#/projects') {
+  else if (window.location.hash.split('/')[1] === 'projects') {
     $('.moveable-canvas').css({
       'top': hashList.projects.top,
       'left': hashList.projects.left,
