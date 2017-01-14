@@ -255,6 +255,21 @@
     }
   ];
 
+  quotesArray.forEach(function addQuotes(each) {
+    var quoteElement = buildQuoteElement(each);
+    var randomTop = Math.floor(Math.random()*40) + 10;
+    var randomLeft = Math.floor(Math.random()*55) + 5;
+    var randomFontSize = Math.random() + 1;
+    quoteElement.css({
+      'position': 'absolute',
+      'width': '25vw',
+      'font-size': randomFontSize + 'vw',
+      'top': randomTop + 'vh',
+      'left': randomLeft + 'vw'
+    });
+    $('.recommendation-cloud').append(quoteElement);
+  });
+
   function buildQuoteElement(quoteObject) {
     var quoteElement = $('<div>');
     var quoteText = $('<p>').text(quoteObject.quote);
@@ -265,7 +280,6 @@
     // quoteName.innerText = quoteObject.name;
     quoteLink.append(quoteName);
     quoteElement.append(quoteText).append(quoteLink);
-    console.log(quoteElement);
     return quoteElement;
   }
 
