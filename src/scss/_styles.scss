@@ -783,6 +783,7 @@ main{
     bottom: 15vh;
     left: 0vw;
     width: 90vw;
+    padding: 8% 5% 5%;
     overflow: hidden;
     .quote{
       // display: none;
@@ -818,7 +819,6 @@ main{
     .quote-grid{
       float: left;
       box-sizing: border-box;
-      border: solid red;
       width: 20vw;
       height: 16vh;
     }

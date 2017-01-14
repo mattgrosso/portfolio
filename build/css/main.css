@@ -711,6 +711,7 @@ main {
     bottom: 15vh;
     left: 0vw;
     width: 90vw;
+    padding: 8% 5% 5%;
     overflow: hidden; }
     .recommend .recommendation-cloud .quote {
       float: left;
@@ -739,7 +740,6 @@ main {
     .recommend .recommendation-cloud .quote-grid {
       float: left;
       box-sizing: border-box;
-      border: solid red;
       width: 20vw;
       height: 16vh; }
 
