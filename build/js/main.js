@@ -254,36 +254,46 @@
     	email: 'pedrom86@gmail.com'
     }
   ];
+  var quoteGridOpenSlotArray = [0,1,2,3,4,5,6,7,8,9,10,11];
 
-  quotesArray.forEach(function addQuotes(each) {
+  randomizeArray(quotesArray).forEach(function addQuotes(each) {
     var quoteElement = buildQuoteElement(each);
-    var randomTop = Math.floor(Math.random()*40) + 10;
-    var randomLeft = Math.floor(Math.random()*55) + 5;
-    var randomFontSize = Math.random() + 1;
-    quoteElement.css({
-      'position': 'absolute',
-      'width': '25vw',
-      'font-size': randomFontSize + 'vw',
-      'top': randomTop + 'vh',
-      'left': randomLeft + 'vw'
-    });
-    $('.recommendation-cloud').append(quoteElement);
+    var quoteRandomQuoteSlot = Math.floor(Math.random() * quoteGridOpenSlotArray.length);
+    quoteElement.addClass('quote');
+    console.log(quoteGridOpenSlotArray);
+    console.log(quoteGridOpenSlotArray[quoteRandomQuoteSlot]);
+    $('#quote-grid-' + quoteGridOpenSlotArray[quoteRandomQuoteSlot]).append(quoteElement);
+    quoteGridOpenSlotArray.splice(quoteRandomQuoteSlot, 1);
+  });
+
+  $('.quote').hover(function hoverOverQuote() {
+    $('.quote').removeClass('big-quote').addClass('small-quote');
+    $(this).removeClass('small-quote').addClass('big-quote');
+  }, function mouseOffQuote() {
+    $('.quote').removeClass('big-quote').removeClass('small-quote');
   });
 
   function buildQuoteElement(quoteObject) {
     var quoteElement = $('<div>');
     var quoteText = $('<p>').text(quoteObject.quote);
-    var quoteLink = $('<a>').attr('href', 'mailto:' + quoteObject.email);
+    var quoteLink = $('<a>').attr('href', 'mailto:' + quoteObject.email).attr('target', '_blank');
     var quoteName = $('<h3>').text(quoteObject.name);
 
-    // quoteText.innerText = quoteObject.quote;
-    // quoteName.innerText = quoteObject.name;
     quoteLink.append(quoteName);
     quoteElement.append(quoteText).append(quoteLink);
     return quoteElement;
   }
 
-  buildQuoteElement(quotesArray[0]);
+  function randomizeArray(array) {
+    var randomizedArray = [];
+    for (var i = 0; i < array.length; i++) {
+      var randomIndex = Math.floor(Math.random() * array.length);
+      randomizedArray.push(array[randomIndex]);
+      array.splice(randomIndex, 1);
+    }
+    return randomizedArray;
+  }
+
 })();
 
 //# sourceMappingURL=main.js.map

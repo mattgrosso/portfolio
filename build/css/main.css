@@ -707,11 +707,41 @@ main {
   .recommend .recommendation-cloud {
     position: absolute;
     box-sizing: border-box;
-    top: 12vh;
+    top: 17vh;
     bottom: 15vh;
     left: 0vw;
     width: 90vw;
-    padding-top: 35px; }
+    overflow: hidden; }
+    .recommend .recommendation-cloud .quote {
+      float: left;
+      position: relative;
+      font-family: "Raleway", sans-serif;
+      font-size: 1vw;
+      cursor: default;
+      transform: scale(1);
+      padding: 10px;
+      transition: all 0.5s ease; }
+      .recommend .recommendation-cloud .quote a {
+        float: right;
+        text-decoration: none;
+        color: #030103;
+        font-weight: 600;
+        padding: 8px 0px 10px; }
+        .recommend .recommendation-cloud .quote a::before {
+          content: "-";
+          margin-right: 5px; }
+        .recommend .recommendation-cloud .quote a h3 {
+          display: inline-block; }
+    .recommend .recommendation-cloud .big-quote {
+      transform: scale(1.5); }
+    .recommend .recommendation-cloud .small-quote {
+      transform: scale(0.5); }
+    .recommend .recommendation-cloud .quote-grid {
+      float: left;
+      box-sizing: border-box;
+      border: solid red;
+      width: 20vw;
+      height: 16vh; }
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   .project-view-frame {
