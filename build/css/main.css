@@ -59,6 +59,7 @@ main {
   height: 100%; }
 
 .move-stuff-form {
+  display: none;
   z-index: 1;
   position: fixed;
   bottom: 50px;
@@ -493,7 +494,7 @@ main {
       padding: 0;
       overflow: hidden; }
       .projects .projects-main-view .iframe-wrapper .project-view-frame {
-        width: 53.4vh;
+        width: 54vh;
         height: 92.7vh;
         zoom: 1;
         -moz-transform: scale(0.5);
@@ -520,18 +521,44 @@ main {
       border: solid #030103;
       border-radius: 3px;
       box-shadow: 3px 5px 18px -8px black; }
-      .projects .projects-main-view .project-description h2 {
+      .projects .projects-main-view .project-description a {
+        text-decoration: none;
+        color: inherit;
+        font-weight: 500; }
+        .projects .projects-main-view .project-description a.inline-link:hover {
+          position: relative;
+          left: -2px;
+          text-decoration: none;
+          color: #030103;
+          font-weight: 600;
+          margin-right: -3px; }
+      .projects .projects-main-view .project-description .project-links {
+        float: left;
+        margin: 30px 0px 15px 10px;
         font-size: 1.3em;
+        font-weight: 600; }
+        .projects .projects-main-view .project-description .project-links li {
+          float: left;
+          padding: 0px 3px;
+          width: auto; }
+          .projects .projects-main-view .project-description .project-links li:hover {
+            color: #F50701; }
+      .projects .projects-main-view .project-description h2 {
+        float: left;
+        font-size: 1.3em;
+        font-weight: 600;
         margin: 30px 0px 15px; }
       .projects .projects-main-view .project-description p {
+        clear: both;
         margin-bottom: 7px;
-        font-size: 1.1em;
         line-height: 1.3em; }
-      .projects .projects-main-view .project-description ul li {
-        margin: 0px 0px 8px;
-        padding-left: 5%;
-        float: left;
-        width: 45%; }
+      .projects .projects-main-view .project-description .tech-list {
+        clear: both; }
+        .projects .projects-main-view .project-description .tech-list li {
+          margin: 0px 0px 8px;
+          padding-left: 5%;
+          float: left;
+          width: 15%; }
   .projects .main-nav {
     position: absolute;
     top: 85.2vh;

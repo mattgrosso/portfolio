@@ -15,6 +15,7 @@ main{
 }
 
 .move-stuff-form{
+  display: none;
   z-index: 1;
   position: fixed;
   bottom: 50px;
@@ -516,7 +517,7 @@ main{
       padding: 0;
       overflow: hidden;
       .project-view-frame{
-        width: 53.4vh;
+        width: 54vh;
         height: 92.7vh;
         zoom: 1;
         -moz-transform: scale(0.5);
@@ -546,21 +547,51 @@ main{
       border: solid $palette-black;
       border-radius: 3px;
       box-shadow: 3px 5px 18px -8px black;
-      h2{
+      a{
+        text-decoration: none;
+        color: inherit;
+        font-weight: 500;
+        &.inline-link:hover{
+          position: relative;
+          left: -2px;
+          text-decoration: none;
+          color: $palette-black;
+          font-weight: 600;
+          margin-right: -3px;
+        }
+      }
+      .project-links{
+        float: left;
+        margin: 30px 0px 15px 10px;
         font-size: 1.3em;
+        font-weight: 600;
+        li{
+          float: left;
+          padding: 0px 3px;
+          width: auto;
+          &:hover{
+            color: $palette-red;
+          }
+        }
+      }
+      h2{
+        float: left;
+        font-size: 1.3em;
+        font-weight: 600;
         margin: 30px 0px 15px;
       }
       p{
+        clear: both;
         margin-bottom: 7px;
-        font-size: 1.1em;
         line-height: 1.3em;
       }
-      ul{
+      .tech-list{
+        clear: both;
         li{
           margin: 0px 0px 8px;
           padding-left: 5%;
           float: left;
-          width: 45%;
+          width: 15%;
         }
       }
     }
