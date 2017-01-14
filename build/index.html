@@ -62,8 +62,8 @@
               <li class="nav-projects"><a href="#projects">Projects</a></li>
               <li class="nav-about"><a href="#about">About</a></li>
               <li class="nav-recommend"><a href="#recommend">Recommendations</a></li>
-              <li class="nav-responsive"><a href="#responsive">Responsive</a></li>
-              <li class="nav-bootstrap"><a href="#bootstrap">Bootstrap</a></li>
+              <!-- <li class="nav-responsive"><a href="#responsive">Responsive</a></li>
+              <li class="nav-bootstrap"><a href="#bootstrap">Bootstrap</a></li> -->
             </ul>
             <div class="clearfix"></div>
           </nav>
@@ -82,7 +82,7 @@
           </ul>
         </div>
       </section>
-      <section ng-app="portfolio" class="projects">
+      <section class="projects" ng-app="portfolio">
         <header>
           <nav class="contact-buttons">
             <ul>
@@ -97,7 +97,7 @@
         <section ui-view class="projects-main-view"></section>
         <nav class="main-nav">
           <ul>
-            <li class="nav-projects"><a href="#"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+            <li class="nav-home"><a href="#"><i class="fa fa-home" aria-hidden="true"></i></a></li>
             <li class="nav-about"><a href="#about">About</a></li>
             <li class="nav-recommend"><a href="#recommend">Recommendations</a></li>
             <li class="nav-responsive"><a href="#responsive">Responsive</a></li>
@@ -113,11 +113,25 @@
           </ul>
         </nav>
       </section>
+      <section class="recommend">
+        <header>
+          <h1>Recommendations</h1>
+          <nav class="main-nav">
+            <ul>
+              <li class="nav-home"><a href="#"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+              <li class="nav-about"><a href="#about">About</a></li>
+              <li class="nav-recommend"><a href="#recommend">Recommendations</a></li>
+              <li class="nav-projects"><a href="#projects">Projects</a></li>
+            </ul>
+          </nav>
+        </header>
+        <section class="recommendation-cloud">
+          
+        </section>
+      </section>
+      <section class="about"></section>
       <section class="bootstrap"></section>
       <section class="responsive"></section>
-      <section class="recommend"></section>
-      <section class="about"></section>
-
 
       <!-- <div class="welcome-box">
         <p>I'm Matt Grosso.</p>

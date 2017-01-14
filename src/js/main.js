@@ -19,7 +19,7 @@
       left: '-273vw'
     },
     recommend: {
-      top: '-329vh',
+      top: '-335vh',
       left: '-83vw'
     },
     about: {
@@ -107,6 +107,7 @@
     }
 
   });
+
 
   $('.move-stuff-form').on('submit', function moveStuff(event) {
     event.preventDefault();
