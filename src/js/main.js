@@ -75,6 +75,7 @@
       });
     }
     else if (hash === '#/projects') {
+      window.location.hash = '#/projects/gametable';
       $('.moveable-canvas').css({
         'top': hashList.projects.top,
         'left': hashList.projects.left,
