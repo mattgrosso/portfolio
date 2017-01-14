@@ -101,9 +101,6 @@
   randomizeArray(quotesArray).forEach(function addQuotes(each) {
     var quoteElement = buildQuoteElement(each);
     var quoteRandomQuoteSlot = Math.floor(Math.random() * quoteGridOpenSlotArray.length);
-    quoteElement.addClass('quote');
-    console.log(quoteGridOpenSlotArray);
-    console.log(quoteGridOpenSlotArray[quoteRandomQuoteSlot]);
     $('#quote-grid-' + quoteGridOpenSlotArray[quoteRandomQuoteSlot]).append(quoteElement);
     quoteGridOpenSlotArray.splice(quoteRandomQuoteSlot, 1);
   });
@@ -116,7 +113,7 @@
   });
 
   function buildQuoteElement(quoteObject) {
-    var quoteElement = $('<div>');
+    var quoteElement = $('<div>').addClass('quote');
     var quoteText = $('<p>').text(quoteObject.quote);
     var quoteLink = $('<a>').attr('href', 'mailto:' + quoteObject.email).attr('target', '_blank');
     var quoteName = $('<h3>').text(quoteObject.name);
@@ -126,13 +123,16 @@
     return quoteElement;
   }
 
-  function randomizeArray(array) {
-    var randomizedArray = [];
-    for (var i = 0; i < array.length; i++) {
-      var randomIndex = Math.floor(Math.random() * array.length);
-      randomizedArray.push(array[randomIndex]);
-      array.splice(randomIndex, 1);
+  function randomizeArray(array, scrambledArray) {
+    var givenArray = array;
+    var randomizedArray = scrambledArray || [];
+    if (givenArray.length > 0) {
+      var randomIndex = Math.floor(Math.random() * givenArray.length);
+      randomizedArray.push(givenArray[randomIndex]);
+      givenArray.splice(randomIndex, 1);
+      randomizeArray(givenArray, randomizedArray);
     }
+    console.log(randomizedArray.length);
     return randomizedArray;
   }
 
