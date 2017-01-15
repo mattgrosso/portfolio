@@ -132,7 +132,6 @@
       givenArray.splice(randomIndex, 1);
       randomizeArray(givenArray, randomizedArray);
     }
-    console.log(randomizedArray.length);
     return randomizedArray;
   }
 

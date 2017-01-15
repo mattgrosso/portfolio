@@ -40,7 +40,9 @@ main{
   height: 500vh;
   width: 500vw;
   background-image: $white-canvas;
-  // transition: all 1.5s ease;
+  transform: scaleX(1);
+  transform-origin: center center;
+  transition: all 1.5s ease;
 }
 
 .art-lines{

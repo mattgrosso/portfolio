@@ -66,8 +66,11 @@
   }
 
   window.addEventListener('hashchange', function hashNav() {
-    var hash = window.location.hash;
+    moveCanvas();
+  });
 
+  function moveCanvas() {
+    var hash = window.location.hash;
     if (hash === '') {
       $('.moveable-canvas').css({
         'top': hashList.home.top,
@@ -105,9 +108,7 @@
         'left': hashList.about.left,
       });
     }
-
-  });
-
+  }
 
   $('.move-stuff-form').on('submit', function moveStuff(event) {
     event.preventDefault();

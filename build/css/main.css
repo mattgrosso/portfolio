@@ -80,7 +80,10 @@ main {
   left: -250vw;
   height: 500vh;
   width: 500vw;
-  background-image: url("/img/fabric-white.png"); }
+  background-image: url("/img/fabric-white.png");
+  transform: scaleX(1);
+  transform-origin: center center;
+  transition: all 1.5s ease; }
 
 .art-lines .v1 {
   position: absolute;
