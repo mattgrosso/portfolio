@@ -748,9 +748,10 @@ main{
   header{
     h1{
       position: absolute;
-      right: 10.5vw;
-      bottom: 89vh;
-      font-size: 4vw;
+      left: 3vw;
+      bottom: 87vh;
+      font-size: 5vw;
+      color: $palette-white;
     }
     .main-nav{
       position: absolute;
@@ -821,6 +822,25 @@ main{
       box-sizing: border-box;
       width: 20vw;
       height: 16vh;
+    }
+  }
+  .contact-buttons{
+    ul{
+      position: absolute;
+      top: 86vh;
+      right: 15vw;
+      li{
+        float: left;
+        a{
+          color: $palette-white;
+          font-size: 1.3em;
+          padding-left: 40px;
+        }
+        &:hover{
+          color: #FFFEFF;
+          text-shadow: 0px 0px 2px #FFFEFF;
+        }
+      }
     }
   }
 }
