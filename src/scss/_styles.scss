@@ -943,6 +943,20 @@ main{
         margin: 50px 130px;
       }
     }
+    #about-furniture{
+      img{
+        width: 30vw;
+        transform: rotate(90deg);
+        position: relative;
+        left: 25vw;
+        margin: 10vh 0 5vh;
+        border: solid black 3px;
+        border-radius: 2px;
+      }
+      .about-textbox{
+        margin: 50px 110px;
+      }
+    }
   }
   .about-nav{
     position: absolute;

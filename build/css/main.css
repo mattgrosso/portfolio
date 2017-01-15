@@ -832,6 +832,16 @@ main {
       left: 23vw; }
     .about .about-content #about-washingcon .about-textbox {
       margin: 50px 130px; }
+    .about .about-content #about-furniture img {
+      width: 30vw;
+      transform: rotate(90deg);
+      position: relative;
+      left: 25vw;
+      margin: 10vh 0 5vh;
+      border: solid black 3px;
+      border-radius: 2px; }
+    .about .about-content #about-furniture .about-textbox {
+      margin: 50px 110px; }
   .about .about-nav {
     position: absolute;
     top: 43vh;
