@@ -883,6 +883,34 @@ main{
       }
     }
   }
+  .contact-buttons{
+    position: absolute;
+    top: 0vh;
+    left: 0vw;
+    width: 11.4vw;
+    height: 16.5vh;
+    ul{
+      position: absolute;
+      top: 2vh;
+      left: 2vw;
+      width: 14.5vw;
+      height: 3vw;
+      li {
+        float: left;
+        width: 3.5vw;
+        height: 3.5vw;
+        text-align: center;
+        font-size: 2.5vw;
+        a{
+          color: $palette-black;
+          &:hover{
+            color: $palette-white
+          }
+        }
+      }
+    }
+  }
+
   .about-content{
     position: absolute;
     top: 13vh;
