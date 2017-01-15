@@ -15,7 +15,7 @@
       $('.about-page').css({
         'display': 'none'
       });
-      $('#' + hashSplit[2]).css({
+      $('#about-' + hashSplit[2]).css({
         'display': 'block'
       });
     }

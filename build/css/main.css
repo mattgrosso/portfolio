@@ -787,8 +787,7 @@ main {
         .about header .main-nav ul li:hover {
           color: #FFFEFF;
           text-shadow: 0px 0px 2px #FFFEFF; }
-  .about #about-start {
-    display: block;
+  .about .about-content {
     position: absolute;
     top: 13vh;
     bottom: 0vh;
@@ -796,19 +795,43 @@ main {
     width: 82vw;
     overflow: hidden;
     box-sizing: border-box;
-    padding: 0px 35px; }
-    .about #about-start img {
-      float: right;
-      height: 36vh;
-      margin: 40px;
-      border: 3px solid #030103;
-      border-radius: 2px; }
-    .about #about-start .about-matt {
+    padding: 0px 35px;
+    font-family: "Raleway", sans-serif; }
+    .about .about-content .about-page .about-textbox {
       margin: 50px 40px; }
-    .about #about-start p {
-      font-size: 1.2em;
-      line-height: 1.4em;
-      padding: 10px 0px; }
+      .about .about-content .about-page .about-textbox p {
+        font-size: 1.2em;
+        line-height: 1.4em;
+        padding: 10px 0px; }
+      .about .about-content .about-page .about-textbox a {
+        display: inline;
+        color: #030103;
+        text-decoration: none;
+        width: 100%;
+        font-weight: 600; }
+        .about .about-content .about-page .about-textbox a:hover {
+          font-weight: 500; }
+    .about .about-content #about-start {
+      display: block; }
+      .about .about-content #about-start img {
+        float: right;
+        height: 36vh;
+        margin: 40px;
+        border: 3px solid #030103;
+        border-radius: 2px; }
+    .about .about-content #about-gamedesign img {
+      float: left;
+      margin: 0px 7vw 0px 5vw;
+      height: 28vh; }
+    .about .about-content #about-washingcon img {
+      width: 30vw;
+      border: solid black 3px;
+      border-radius: 2px;
+      position: relative;
+      margin-top: 5vh;
+      left: 23vw; }
+    .about .about-content #about-washingcon .about-textbox {
+      margin: 50px 130px; }
   .about .about-nav {
     position: absolute;
     top: 43vh;

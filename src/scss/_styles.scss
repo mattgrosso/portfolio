@@ -883,8 +883,7 @@ main{
       }
     }
   }
-  #about-start{
-    display: block;
+  .about-content{
     position: absolute;
     top: 13vh;
     bottom: 0vh;
@@ -893,20 +892,56 @@ main{
     overflow: hidden;
     box-sizing: border-box;
     padding: 0px 35px;
-    img{
-      float: right;
-      height: 36vh;
-      margin: 40px;
-      border: 3px solid $palette-black;
-      border-radius: 2px;
+    font-family: $sans-serif-font;
+    .about-page{
+      .about-textbox{
+        margin: 50px 40px;
+        p{
+          font-size: 1.2em;
+          line-height: 1.4em;
+          padding: 10px 0px;
+        }
+        a{
+          display: inline;
+          color: #030103;
+          text-decoration: none;
+          width: 100%;
+          font-weight: 600;
+          &:hover{
+            font-weight: 500;
+          }
+        }
+      }
     }
-    .about-matt{
-      margin: 50px 40px;
+    #about-start{
+      display: block;
+      img{
+        float: right;
+        height: 36vh;
+        margin: 40px;
+        border: 3px solid $palette-black;
+        border-radius: 2px;
+      }
     }
-    p{
-      font-size: 1.2em;
-      line-height: 1.4em;
-      padding: 10px 0px;
+    #about-gamedesign{
+      img{
+        float: left;
+        margin: 0px 7vw 0px 5vw;
+        height: 28vh;
+      }
+    }
+    #about-washingcon{
+      img{
+        width: 30vw;
+        border: solid black 3px;
+        border-radius: 2px;
+        position: relative;
+        margin-top: 5vh;
+        left: 23vw;
+      }
+      .about-textbox{
+        margin: 50px 130px;
+      }
     }
   }
   .about-nav{
