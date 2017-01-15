@@ -80,10 +80,7 @@ main {
   left: -250vw;
   height: 500vh;
   width: 500vw;
-  background-image: url("/img/fabric-white.png");
-  transform: scaleX(1);
-  transform-origin: center center;
-  transition: all 1.5s ease; }
+  background-image: url("/img/fabric-white.png"); }
 
 .art-lines .v1 {
   position: absolute;
@@ -185,7 +182,7 @@ main {
   position: absolute;
   top: 250vh;
   left: 282vw;
-  right: 0;
+  right: 82vw;
   height: 34px;
   overflow: hidden;
   background-image: url("/img/fabric-black.png"); }
@@ -760,25 +757,6 @@ main {
         color: #FFFEFF;
         text-shadow: 0px 0px 2px #FFFEFF; }
 
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-  .project-view-frame {
-    zoom: 1; } }
-.bootstrap {
-  position: absolute;
-  box-sizing: border-box;
-  top: 75vh;
-  left: 329vw;
-  height: 100vh;
-  width: 100vw; }
-
-.responsive {
-  position: absolute;
-  box-sizing: border-box;
-  top: 265vh;
-  left: 273vw;
-  height: 100vh;
-  width: 100vw; }
-
 .about {
   position: absolute;
   box-sizing: border-box;
@@ -786,7 +764,92 @@ main {
   left: 400vw;
   height: 100vh;
   width: 100vw; }
+  .about header h1 {
+    position: absolute;
+    top: 1vh;
+    right: 2vw;
+    font-size: 7vh; }
+  .about header .main-nav {
+    position: absolute;
+    top: 8.2vh;
+    right: 0vw;
+    font-family: "Raleway", sans-serif; }
+    .about header .main-nav ul {
+      width: 100vw;
+      font-size: 1.2em;
+      font-weight: 200; }
+      .about header .main-nav ul li {
+        float: right;
+        padding: 7px 30px 4px; }
+        .about header .main-nav ul li a {
+          color: #FFFEFF;
+          text-decoration: none; }
+        .about header .main-nav ul li:hover {
+          color: #FFFEFF;
+          text-shadow: 0px 0px 2px #FFFEFF; }
+  .about #about-start {
+    display: block;
+    position: absolute;
+    top: 13vh;
+    bottom: 0vh;
+    left: 18vw;
+    width: 82vw;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 0px 35px; }
+    .about #about-start img {
+      float: right;
+      height: 36vh;
+      margin: 40px;
+      border: 3px solid #030103;
+      border-radius: 2px; }
+    .about #about-start .about-matt {
+      margin: 50px 40px; }
+    .about #about-start p {
+      font-size: 1.2em;
+      line-height: 1.4em;
+      padding: 10px 0px; }
+  .about .about-nav {
+    position: absolute;
+    top: 43vh;
+    bottom: 15vh;
+    left: 1vw;
+    right: 82vw;
+    font-family: "Raleway", sans-serif; }
+    .about .about-nav ul {
+      position: relative; }
+      .about .about-nav ul li {
+        position: relative;
+        left: 0;
+        margin: 1vw 0px;
+        width: 100%;
+        font-size: 1.5vw;
+        font-weight: 500;
+        text-align: left;
+        background-image: url("/img/fabric-yellow.png");
+        transition: all 0.3s ease; }
+        .about .about-nav ul li a {
+          display: inline-block;
+          box-sizing: border-box;
+          color: #030103;
+          text-decoration: none;
+          padding: 9px 0px 9px 17px;
+          width: 100%; }
+          .about .about-nav ul li a i {
+            position: relative;
+            left: 0px;
+            float: right;
+            padding-right: 9px;
+            transition: all 0.3s ease; }
+        .about .about-nav ul li:hover {
+          left: 0.9vw;
+          width: 94.5%; }
+  .about .about-page {
+    display: none; }
 
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  .project-view-frame {
+    zoom: 1; } }
 .horizontal-bar2 {
   position: absolute;
   top: 40vh;
@@ -846,21 +909,6 @@ main {
         left: 10px; }
         .contact-box .contacts li:hover i {
           left: -10px; }
-
-.welcome-box {
-  position: absolute;
-  z-index: -1;
-  top: 146px;
-  height: 80vh;
-  left: 184px;
-  width: 80vw;
-  overflow: hidden;
-  box-sizing: border-box; }
-  .welcome-box p {
-    font-size: 1.3em;
-    line-height: normal;
-    padding: 20px 100px;
-    text-align: left; }
 
 .clearfix {
   clear: both; }

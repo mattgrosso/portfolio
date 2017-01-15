@@ -40,25 +40,13 @@
       'left': hashList.projects.left,
     });
   }
-  else if (window.location.hash === '#/bootstrap') {
-    $('.moveable-canvas').css({
-      'top': hashList.bootstrap.top,
-      'left': hashList.bootstrap.left,
-    });
-  }
-  else if (window.location.hash === '#/responsive') {
-    $('.moveable-canvas').css({
-      'top': hashList.responsive.top,
-      'left': hashList.responsive.left,
-    });
-  }
   else if (window.location.hash === '#/recommend') {
     $('.moveable-canvas').css({
       'top': hashList.recommend.top,
       'left': hashList.recommend.left,
     });
   }
-  else if (window.location.hash === '#/about') {
+  else if (window.location.hash.split('/')[1] === 'about') {
     $('.moveable-canvas').css({
       'top': hashList.about.top,
       'left': hashList.about.left,

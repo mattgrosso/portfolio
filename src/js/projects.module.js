@@ -2,12 +2,12 @@
   'use strict';
 
   angular
-    .module('portfolio', ['ui.router'])
-    .config(portfolioConfig);
+    .module('projects', ['ui.router'])
+    .config(projectsConfig);
 
-  portfolioConfig.$inject = ['$stateProvider'];
+  projectsConfig.$inject = ['$stateProvider'];
 
-  function portfolioConfig($stateProvider) {
+  function projectsConfig($stateProvider) {
 
     $stateProvider
       .state('projects', {

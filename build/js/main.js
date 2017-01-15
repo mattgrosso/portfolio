@@ -1,6 +1,39 @@
 (function() {
   'use strict';
 
+  if (window.location.hash.split('/')[1] === 'about') {
+    detectHash();
+  }
+
+  window.addEventListener('hashchange', function aboutPageRouter() {
+    detectHash();
+  });
+
+  function detectHash() {
+    var hashSplit = window.location.hash.split('/');
+    if (hashSplit[2] && hashSplit[1] === 'about') {
+      $('.about-page').css({
+        'display': 'none'
+      });
+      $('#' + hashSplit[2]).css({
+        'display': 'block'
+      });
+    }
+    else if (hashSplit[1] === 'about') {
+      $('.about-page').css({
+        'display': 'none'
+      });
+      $('#about-start').css({
+        'display': 'block'
+      });
+    }
+
+  }
+})();
+
+(function() {
+  'use strict';
+
   var hashList = {
     home: {
       top: '-209vh',
@@ -40,25 +73,13 @@
       'left': hashList.projects.left,
     });
   }
-  else if (window.location.hash === '#/bootstrap') {
-    $('.moveable-canvas').css({
-      'top': hashList.bootstrap.top,
-      'left': hashList.bootstrap.left,
-    });
-  }
-  else if (window.location.hash === '#/responsive') {
-    $('.moveable-canvas').css({
-      'top': hashList.responsive.top,
-      'left': hashList.responsive.left,
-    });
-  }
   else if (window.location.hash === '#/recommend') {
     $('.moveable-canvas').css({
       'top': hashList.recommend.top,
       'left': hashList.recommend.left,
     });
   }
-  else if (window.location.hash === '#/about') {
+  else if (window.location.hash.split('/')[1] === 'about') {
     $('.moveable-canvas').css({
       'top': hashList.about.top,
       'left': hashList.about.left,
@@ -124,12 +145,12 @@
   'use strict';
 
   angular
-    .module('portfolio', ['ui.router'])
-    .config(portfolioConfig);
+    .module('projects', ['ui.router'])
+    .config(projectsConfig);
 
-  portfolioConfig.$inject = ['$stateProvider'];
+  projectsConfig.$inject = ['$stateProvider'];
 
-  function portfolioConfig($stateProvider) {
+  function projectsConfig($stateProvider) {
 
     $stateProvider
       .state('projects', {
