@@ -791,8 +791,8 @@ main {
     position: absolute;
     top: 0vh;
     left: 0vw;
-    width: 11.4vw;
-    height: 16.5vh; }
+    width: 18vw;
+    height: 5.5vw; }
     .about .contact-buttons ul {
       position: absolute;
       top: 2vh;
@@ -866,8 +866,8 @@ main {
       margin: 50px 110px; }
   .about .about-nav {
     position: absolute;
-    top: 43vh;
-    bottom: 15vh;
+    top: 13vh;
+    height: 20vh;
     left: 1vw;
     right: 82vw;
     font-family: "Raleway", sans-serif; }
@@ -878,7 +878,7 @@ main {
         left: 0;
         margin: 1vw 0px;
         width: 100%;
-        font-size: 1.5vw;
+        font-size: 2vh;
         font-weight: 500;
         text-align: left;
         background-image: url("/img/fabric-yellow.png");
