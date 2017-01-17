@@ -296,7 +296,7 @@ main {
     width: 84vw;
     left: 14vw; }
     .homepage header .main-nav ul {
-      font-size: 3.5vh;
+      font-size: 5vh;
       font-weight: 200;
       font-family: "Raleway", sans-serif; }
       .homepage header .main-nav ul li {
@@ -308,7 +308,7 @@ main {
           display: inline-block;
           color: #030103;
           text-decoration: none;
-          padding: 10vh 25vw; }
+          padding: 9vh 25vw; }
           .homepage header .main-nav ul li a:hover {
             color: #030103;
             z-index: 2; }

@@ -285,7 +285,7 @@ main{
       width: 84vw;
       left: 14vw;
       ul{
-        font-size: 3.5vh;
+        font-size: 5vh;
         font-weight: 200;
         font-family: $sans-serif-font;
         li{
@@ -297,7 +297,7 @@ main{
             display: inline-block;
             color: #030103;
             text-decoration: none;
-            padding: 10vh 25vw;
+            padding: 9vh 25vw;
             &:hover{
               color: $palette-black;
               z-index: 2;
