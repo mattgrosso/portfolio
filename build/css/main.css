@@ -306,7 +306,8 @@ main {
         margin: 2vh;
         border: solid #ACAAAC 2px;
         width: 25vw;
-        height: 75vh; }
+        height: 75vh;
+        box-shadow: 6px 4px 20px 0px #ACAAAC; }
         .homepage header .main-nav ul li a {
           display: inline-block;
           color: #030103;
@@ -496,7 +497,7 @@ main {
       font-family: "Raleway", sans-serif;
       border: solid #030103;
       border-radius: 3px;
-      box-shadow: 3px 5px 18px -8px black;
+      box-shadow: 6px 4px 20px 0px #ACAAAC;
       overflow: scroll; }
       .projects .projects-main-view .project-description a {
         text-decoration: none;
@@ -710,11 +711,13 @@ main {
     position: absolute;
     box-sizing: border-box;
     top: 17vh;
-    bottom: 15vh;
-    left: 0vw;
-    width: 90vw;
-    padding: 8% 5% 5%;
-    overflow: hidden; }
+    bottom: 16vh;
+    left: 1vw;
+    width: 88vw;
+    padding: 2% 13% 5%;
+    overflow: hidden;
+    border: solid #030103;
+    box-shadow: 6px 4px 20px 0px #ACAAAC; }
     .recommend .recommendation-cloud .quote {
       float: left;
       position: relative;
@@ -818,7 +821,7 @@ main {
     width: 82vw;
     overflow: hidden;
     box-sizing: border-box;
-    padding: 0px 35px;
+    padding: 0px 35px 0px 60px;
     font-family: "Raleway", sans-serif; }
     .about .about-content .about-page .about-textbox {
       margin: 50px 40px; }
@@ -835,36 +838,47 @@ main {
         .about .about-content .about-page .about-textbox a:hover {
           font-weight: 500; }
     .about .about-content #about-start {
-      display: block; }
+      display: block;
+      border: solid #030103;
+      box-shadow: 6px 4px 20px 0px #ACAAAC; }
       .about .about-content #about-start img {
         float: right;
         height: 36vh;
         margin: 40px;
-        border: 3px solid #030103;
+        border: solid #ACAAAC;
         border-radius: 2px; }
-    .about .about-content #about-gamedesign img {
-      float: left;
-      margin: 0px 7vw 0px 5vw;
-      height: 28vh; }
-    .about .about-content #about-washingcon img {
-      width: 30vw;
-      border: solid black 3px;
-      border-radius: 2px;
-      position: relative;
-      margin-top: 5vh;
-      left: 23vw; }
-    .about .about-content #about-washingcon .about-textbox {
-      margin: 50px 130px; }
-    .about .about-content #about-furniture img {
-      width: 30vw;
-      transform: rotate(90deg);
-      position: relative;
-      left: 25vw;
-      margin: 10vh 0 5vh;
-      border: solid black 3px;
-      border-radius: 2px; }
-    .about .about-content #about-furniture .about-textbox {
-      margin: 50px 110px; }
+    .about .about-content #about-gamedesign {
+      border: solid #030103;
+      box-shadow: 6px 4px 20px 0px #ACAAAC; }
+      .about .about-content #about-gamedesign img {
+        float: left;
+        margin: 3vh 7vw 0px 5vw;
+        height: 28vh; }
+    .about .about-content #about-washingcon {
+      border: solid #030103;
+      box-shadow: 6px 4px 20px 0px #ACAAAC; }
+      .about .about-content #about-washingcon img {
+        width: 30vw;
+        border: solid #ACAAAC;
+        border-radius: 2px;
+        position: relative;
+        margin-top: 5vh;
+        left: 23vw; }
+      .about .about-content #about-washingcon .about-textbox {
+        margin: 50px 130px; }
+    .about .about-content #about-furniture {
+      border: solid #030103;
+      box-shadow: 6px 4px 20px 0px #ACAAAC; }
+      .about .about-content #about-furniture img {
+        width: 30vw;
+        transform: rotate(90deg);
+        position: relative;
+        left: 25vw;
+        margin: 10vh 0 5vh;
+        border: solid #ACAAAC;
+        border-radius: 2px; }
+      .about .about-content #about-furniture .about-textbox {
+        margin: 50px 110px; }
   .about .about-nav {
     position: absolute;
     top: 13vh;

@@ -296,6 +296,7 @@ main{
           border: solid $palette-light-grey 2px;
           width: 25vw;
           height: 75vh;
+          box-shadow: 6px 4px 20px 0px $palette-light-grey;
           a{
             display: inline-block;
             color: #030103;
@@ -526,7 +527,7 @@ main{
       font-family: $sans-serif-font;
       border: solid $palette-black;
       border-radius: 3px;
-      box-shadow: 3px 5px 18px -8px black;
+      box-shadow: 6px 4px 20px 0px $palette-light-grey;
       overflow: scroll;
       a{
         text-decoration: none;
@@ -786,14 +787,16 @@ main{
     }
   }
   .recommendation-cloud{
-    position: absolute;;
+    position: absolute;
     box-sizing: border-box;
     top: 17vh;
-    bottom: 15vh;
-    left: 0vw;
-    width: 90vw;
-    padding: 8% 5% 5%;
+    bottom: 16vh;
+    left: 1vw;
+    width: 88vw;
+    padding: 2% 13% 5%;
     overflow: hidden;
+    border: solid $palette-black;
+    box-shadow: 6px 4px 20px 0px $palette-light-grey;
     .quote{
       // display: none;
       float: left;
@@ -926,7 +929,7 @@ main{
     width: 82vw;
     overflow: hidden;
     box-sizing: border-box;
-    padding: 0px 35px;
+    padding: 0px 35px 0px 60px;
     font-family: $sans-serif-font;
     .about-page{
       .about-textbox{
@@ -950,25 +953,31 @@ main{
     }
     #about-start{
       display: block;
+      border: solid $palette-black;
+      box-shadow: 6px 4px 20px 0px $palette-light-grey;
       img{
         float: right;
         height: 36vh;
         margin: 40px;
-        border: 3px solid $palette-black;
+        border: solid $palette-light-grey;
         border-radius: 2px;
       }
     }
     #about-gamedesign{
+      border: solid $palette-black;
+      box-shadow: 6px 4px 20px 0px $palette-light-grey;
       img{
         float: left;
-        margin: 0px 7vw 0px 5vw;
+        margin: 3vh 7vw 0px 5vw;
         height: 28vh;
       }
     }
     #about-washingcon{
+      border: solid $palette-black;
+      box-shadow: 6px 4px 20px 0px $palette-light-grey;
       img{
         width: 30vw;
-        border: solid black 3px;
+        border: solid $palette-light-grey;
         border-radius: 2px;
         position: relative;
         margin-top: 5vh;
@@ -979,13 +988,15 @@ main{
       }
     }
     #about-furniture{
+      border: solid $palette-black;
+      box-shadow: 6px 4px 20px 0px $palette-light-grey;
       img{
         width: 30vw;
         transform: rotate(90deg);
         position: relative;
         left: 25vw;
         margin: 10vh 0 5vh;
-        border: solid black 3px;
+        border: solid $palette-light-grey;
         border-radius: 2px;
       }
       .about-textbox{
