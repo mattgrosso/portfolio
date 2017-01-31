@@ -80,8 +80,7 @@ main {
   left: -250vw;
   height: 500vh;
   width: 500vw;
-  background-image: url("/img/fabric-white.png");
-  transition: all 1.5s ease; }
+  background-image: url("/img/fabric-white.png"); }
 
 .art-lines .v1 {
   position: absolute;
@@ -296,7 +295,7 @@ main {
     width: 84vw;
     left: 14vw; }
     .homepage header .main-nav ul {
-      font-size: 3.5vh;
+      font-size: 2.7vw;
       font-weight: 200;
       font-family: "Raleway", sans-serif; }
       .homepage header .main-nav ul li {
@@ -304,8 +303,9 @@ main {
         float: left;
         text-align: left;
         margin: 2vh;
+        background-color: white;
         border: solid #ACAAAC 2px;
-        width: 25vw;
+        width: 24vw;
         height: 75vh;
         box-shadow: 6px 4px 20px 0px #ACAAAC; }
         .homepage header .main-nav ul li a {
@@ -314,6 +314,7 @@ main {
           background-color: white;
           text-decoration: none;
           box-sizing: border-box;
+          line-height: 2.5vh;
           padding: 1.5vh 17vw 69vh 1vw;
           max-width: 25vw; }
           .homepage header .main-nav ul li a:hover {
@@ -982,5 +983,85 @@ main {
 
 .clearfix {
   clear: both; }
+
+@media only screen and (min-width: 769px) and (max-width: 1000px) {
+  .art-lines .v2 {
+    left: 136vw; }
+  .art-lines .v3 {
+    left: 180vw; }
+  .art-lines .h2 {
+    left: 136vw; }
+
+  .art-colors .c1 {
+    right: 364vw; }
+  .art-colors .c2 {
+    left: 136vw; }
+
+  .homepage .contacts-box {
+    width: 17vw; }
+    .homepage .contacts-box h3 {
+      font-size: 2.4vw; }
+    .homepage .contacts-box ul {
+      width: 17vw; }
+      .homepage .contacts-box ul li {
+        font-size: 1.9vw;
+        margin: 10px 0px; }
+        .homepage .contacts-box ul li:hover {
+          left: 0.8vw;
+          width: 95%; }
+  .homepage header .main-nav {
+    width: 76vw;
+    left: 22vw; }
+    .homepage header .main-nav ul li {
+      width: 72vw;
+      height: 20vh; }
+      .homepage header .main-nav ul li a {
+        padding: 1.5vh 70vw 16vh 1vw;
+        max-width: 72vw; }
+      .homepage header .main-nav ul li.nav-projects:before {
+        background-position: 40vw 5vh; }
+      .homepage header .main-nav ul li.nav-about:before {
+        background-position: 21vw 0vh; }
+      .homepage header .main-nav ul li.nav-recommend:before {
+        background-position: 66vw -11vh; }
+
+  .projects header .contact-buttons {
+    width: 15vw; }
+    .projects header .contact-buttons ul {
+      top: 3vh;
+      width: 10vw;
+      height: 10vw; }
+      .projects header .contact-buttons ul li {
+        width: 4.8vw;
+        height: 4.8vw;
+        font-size: 3vw; }
+  .projects .projects-nav {
+    right: 85vw; }
+    .projects .projects-nav ul li {
+      font-size: 1.8vw;
+      margin: 10px 0px; }
+      .projects .projects-nav ul li:hover {
+        left: 1.1vw; }
+  .projects .projects-main-view {
+    left: 15vw; }
+    .projects .projects-main-view .evolution-view .iframe-wrapper {
+      width: 42vw; }
+      .projects .projects-main-view .evolution-view .iframe-wrapper .project-view-frame {
+        width: 83.1vw; }
+    .projects .projects-main-view .tictactoe-view .iframe-wrapper {
+      width: 42vw; }
+      .projects .projects-main-view .tictactoe-view .iframe-wrapper .project-view-frame {
+        width: 83.1vw; }
+    .projects .projects-main-view .popsci-view .iframe-wrapper {
+      width: 42vw; }
+      .projects .projects-main-view .popsci-view .iframe-wrapper .project-view-frame {
+        width: 83.1vw; }
+    .projects .projects-main-view .project-description {
+      left: 47vw;
+      width: 26vw; }
+      .projects .projects-main-view .project-description .tech-list li {
+        width: 45%; }
+  .projects .main-nav ul li {
+    padding: 7px 15px 4px; } }
 
 /*# sourceMappingURL=main.css.map */
