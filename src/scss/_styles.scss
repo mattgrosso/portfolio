@@ -40,7 +40,7 @@ main{
   height: 500vh;
   width: 500vw;
   background-image: $white-canvas;
-  // transition: all 1.5s ease;
+  transition: all 1.5s ease;
 }
 
 .art-lines{
@@ -295,7 +295,7 @@ main{
           margin: 2vh;
           background-color: white;
           border: solid $palette-light-grey 2px;
-          width: 25vw;
+          width: 24vw;
           height: 75vh;
           box-shadow: 6px 4px 20px 0px $palette-light-grey;
           a{
@@ -306,7 +306,7 @@ main{
             box-sizing: border-box;
             line-height: 2.5vh;
             padding: 1.5vh 17vw 69vh 1vw;
-            max-width: 25vw;
+            max-width: 24vw;
             &:hover{
               color: $palette-black;
               z-index: 2;
