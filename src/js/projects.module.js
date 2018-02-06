@@ -33,7 +33,10 @@
       .state('gloomhaven', {
         url: '/projects/gloomhaven',
         templateUrl: '/templates/gloomhaven.template.html'
+      })
+      .state('greatestgen', {
+        url: '/projects/greatestgen',
+        templateUrl: '/templates/greatestgen.template.html'
       });
   }
-
 })();
