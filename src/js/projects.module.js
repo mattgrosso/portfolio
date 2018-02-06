@@ -29,8 +29,11 @@
       .state('popsci', {
         url: '/projects/popsci',
         templateUrl: '/templates/popsci.template.html'
+      })
+      .state('gloomhaven', {
+        url: '/projects/gloomhaven',
+        templateUrl: '/templates/gloomhaven.template.html'
       });
   }
-
 
 })();
