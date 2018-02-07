@@ -22,10 +22,6 @@
         url: '/projects/tictactoe',
         templateUrl: '/templates/tictactoe.template.html'
       })
-      .state('evolution', {
-        url: '/projects/evolution',
-        templateUrl: '/templates/evolution.template.html'
-      })
       .state('popsci', {
         url: '/projects/popsci',
         templateUrl: '/templates/popsci.template.html'
